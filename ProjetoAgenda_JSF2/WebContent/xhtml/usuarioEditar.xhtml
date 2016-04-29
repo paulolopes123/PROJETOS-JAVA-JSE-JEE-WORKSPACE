@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="_modelo.xhtml">
+
+	<ui:define name="titulo">Editar Usuário</ui:define>
+
+	<ui:define name="conteudo">
+		<h:form id="form">
+			<h:inputHidden id="idUsuario" value="#{userMB.usuario.id}" />
+			<h:panelGrid columns="2">
+
+				<h:outputLabel value="Login:" for="login"></h:outputLabel>
+				<h:inputText id="login" value="#{userMB.usuario.login}"
+					required="true" requiredMessage="O Campo Login é obrigatório."></h:inputText>
+
+				<h:outputLabel value="Senha:" for="senha"></h:outputLabel>
+				<h:inputSecret id="senha" value="#{userMB.usuario.senha}" redisplay="true"
+					required="true" requiredMessage="O Campo Senha é obrigatório."></h:inputSecret>
+
+				<h:outputLabel value="Nome:" for="nome"></h:outputLabel>
+				<h:inputText id="nome" value="#{userMB.usuario.nome}"
+					required="true" requiredMessage="O Campo Nome é obrigatório."></h:inputText>
+
+				<f:facet name="footer">
+					<h:panelGroup>
+						<h:commandButton id="btnSalvar" action="#{userMB.acaoSalvar}"
+							value="Salvar"></h:commandButton>
+						<h:commandButton id="btnCancelar" action="#{userMB.acaoCancelar}"
+							immediate="true" value="Cancelar"></h:commandButton>
+					</h:panelGroup>
+				</f:facet>
+
+			</h:panelGrid>
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>
+</html>

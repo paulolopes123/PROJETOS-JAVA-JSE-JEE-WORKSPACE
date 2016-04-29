@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<title><ui:insert name="titulo">Título</ui:insert></title>
+	<meta content="text/html; charset=ISO-88591" http-equiv="Content-Type" />
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+</h:head>
+
+<h:body>
+
+	<div id="cabecalho">
+		<ui:insert name="cabecalho">
+		</ui:insert>
+		<h:form id="formHome">
+			<h:panelGrid rendered="#{loginMB.autenticado}" columns="2">
+
+				<h:commandLink action="home">Página Inicial</h:commandLink>
+
+				<h:panelGroup>
+					<h:outputText value=" - Usuário: "></h:outputText>
+					<h:outputText value="#{loginMB.usuario.nome}" styleClass="titulo"></h:outputText>
+					<h:outputText value=" - "></h:outputText>
+					<h:commandLink action="#{loginMB.acaoLogout}">Sair</h:commandLink>
+				</h:panelGroup>
+
+			</h:panelGrid>
+			<h:commandLink rendered="#{!loginMB.autenticado}" action="#{loginMB.acaoAbrirLogin}">Login</h:commandLink>
+		</h:form>
+		<h1>
+			<ui:insert name="titulo"></ui:insert>
+		</h1>
+		<h:messages style="color: red"></h:messages>
+	</div>
+
+	<div id="conteudo">
+		<ui:insert name="conteudo">
+			<!--  include your content file or uncomment the include below and create content.xhtml in this directory -->
+			<!-- <div> -->
+			<!-- <ui:include src="content.xhtml"/> -->
+			<!-- </div> -->
+		</ui:insert>
+	</div>
+
+	<div id="rodape">
+		<ui:insert name="rodape">
+			<!--  include your header file or uncomment the include below and create footer.xhtml in this directory -->
+			<!--<ui:include src="footer.xhtml"/>  -->
+		</ui:insert>
+	</div>
+
+</h:body>
+
+</html>

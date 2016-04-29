@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:composite="http://java.sun.com/jsf/composite">
+
+<ui:composition template="_modelo.xhtml">
+
+	<ui:define name="titulo">Cadastro de Pessoas</ui:define>
+
+	<ui:define name="conteudo">
+		<h:form id="form">
+
+			<h:commandLink action="#{pessoaMB.acaoAbrirInclusao}" immediate="true">
+				<h:outputText value="Incluir Nova Pessoa"></h:outputText>
+			</h:commandLink>
+			<br />
+			<br />
+			<h:outputText value="Pessoas Cadastradas:"
+				rendered="#{not empty pessoaMB.pessoas}"></h:outputText>
+
+			<h:dataTable id="lista" var="item" value="#{pessoaMB.pessoas}"
+				rendered="#{not empty pessoaMB.pessoas}" border="1" cellspacing="0"
+				cellpadding="3">
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Nome" />
+					</f:facet>
+					<h:outputText value="#{item.nome}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Celular" />
+					</f:facet>
+					<h:outputText value="#{item.celular}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Tel. Fixo" />
+					</f:facet>
+					<h:outputText value="#{item.telefoneFixo}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="E-mail" />
+					</f:facet>
+					<h:outputText value="#{item.email}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Cidade" />
+					</f:facet>
+					<h:outputText value="#{item.endereco.cidade} #{item.endereco.uf}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Ações" />
+					</f:facet>
+					<h:panelGroup>
+						<h:commandLink action="#{pessoaMB.acaoAbrirAlteracao}" immediate="true">
+							<f:param value="#{item.id}" name="itemId" />
+							<h:outputText value="Alterar"></h:outputText>
+						</h:commandLink>
+						-
+						<h:commandLink action="#{pessoaMB.acaoExcluir}" immediate="true">
+							<f:param value="#{item.id}" name="itemId" />
+							<h:outputText value="Excluir"></h:outputText>
+						</h:commandLink>
+					</h:panelGroup>
+				</h:column>
+
+			</h:dataTable>
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>
+</html>

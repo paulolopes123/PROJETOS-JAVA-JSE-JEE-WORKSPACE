@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="_modelo.xhtml">
+
+	<ui:define name="titulo">Editar Pessoa</ui:define>
+
+	<ui:define name="conteudo">
+		<h:form id="form">
+			<h:inputHidden id="idUsuario" value="#{pessoaMB.pessoa.id}" />
+			<h:panelGrid columns="2">
+
+				<h:outputLabel value="Nome:" for="nome"></h:outputLabel>
+				<h:inputText id="nome" value="#{pessoaMB.pessoa.nome}"
+					required="true" requiredMessage="O Campo Nome é obrigatório."></h:inputText>
+
+				<h:outputLabel value="Telefone Fixo" for="tel"></h:outputLabel>
+				<h:inputText id="tel" value="#{pessoaMB.pessoa.telefoneFixo}"
+					required="true"
+					requiredMessage="O Campo Telefone Fixo é obrigatório."></h:inputText>
+
+				<h:outputLabel value="Celular" for="cel"></h:outputLabel>
+				<h:inputText id="cel" value="#{pessoaMB.pessoa.celular}"
+					required="true" requiredMessage="O Campo Celular é obrigatório."></h:inputText>
+
+				<h:outputLabel value="E-mail:" for="email"></h:outputLabel>
+				<h:inputText id="email" value="#{pessoaMB.pessoa.email}"
+					required="true" requiredMessage="O Campo E-mail é obrigatório."></h:inputText>
+
+				<h:outputLabel value="Endereço:" for="end"></h:outputLabel>
+				<h:inputText size="50" id="end"
+					value="#{pessoaMB.pessoa.endereco.logradouro}"></h:inputText>
+
+				<h:outputLabel value="NÂº:" for="num"></h:outputLabel>
+				<h:panelGrid columns="3" cellpadding="0" cellspacing="0">
+					<h:inputText size="10" id="num"
+						value="#{pessoaMB.pessoa.endereco.numero}"></h:inputText>
+
+					<h:outputLabel value=" Complemento:" for="comp"></h:outputLabel>
+					<h:inputText size="10" id="comp"
+						value="#{pessoaMB.pessoa.endereco.complemento}"></h:inputText>
+				</h:panelGrid>
+
+				<h:outputLabel value="Bairro:" for="bairro"></h:outputLabel>
+				<h:inputText size="50" id="bairro"
+					value="#{pessoaMB.pessoa.endereco.bairro}"></h:inputText>
+
+				<h:outputLabel value="Cidade:" for="cida"></h:outputLabel>
+				<h:inputText size="50" id="cida"
+					value="#{pessoaMB.pessoa.endereco.cidade}"></h:inputText>
+
+				<h:outputLabel value="UF:" for="uf"></h:outputLabel>
+				<h:panelGrid columns="3" cellpadding="0" cellspacing="0">
+					<h:selectOneListbox id="uf" value="#{pessoaMB.pessoa.endereco.uf}" size="1">
+						<f:selectItems value="#{pessoaMB.listaUF}" var="uf"
+							itemValue="#{uf}" itemLabel="#{uf}"></f:selectItems>
+					</h:selectOneListbox>
+
+					<h:outputLabel value=" CEP:" for="cep"></h:outputLabel>
+					<h:inputText size="10" id="cep"
+						value="#{pessoaMB.pessoa.endereco.cep}"></h:inputText>
+				</h:panelGrid>
+
+				<f:facet name="footer">
+					<h:panelGroup>
+						<h:commandButton id="btnSalvar" action="#{pessoaMB.acaoSalvar}"
+							value="Salvar"></h:commandButton>
+						<h:commandButton id="btnCancelar" action="#{pessoaMB.acaoCancelar}"
+							immediate="true" value="Cancelar"></h:commandButton>
+						
+					</h:panelGroup>
+				</f:facet>
+
+			</h:panelGrid>
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>
+</html>

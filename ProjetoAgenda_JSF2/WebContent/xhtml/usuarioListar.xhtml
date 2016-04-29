@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:composite="http://java.sun.com/jsf/composite">
+
+<ui:composition template="_modelo.xhtml">
+
+	<ui:define name="titulo">Cadastro de Usuários</ui:define>
+
+	<ui:define name="conteudo">
+		<h:form id="form">
+
+			<h:commandLink action="#{userMB.acaoAbrirInclusao}" immediate="true">
+				<h:outputText value="Incluir Novo Usuário"></h:outputText>
+			</h:commandLink>
+			<br />
+			<br />
+			<h:outputText value="Usuários Cadastrados:"
+				rendered="#{not empty userMB.usuarios}"></h:outputText>
+
+			<h:dataTable id="lista" var="item" value="#{userMB.usuarios}"
+				rendered="#{not empty userMB.usuarios}" border="1" cellspacing="0"
+				cellpadding="3">
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Login" />
+					</f:facet>
+					<h:outputText value="#{item.login}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Nome" />
+					</f:facet>
+					<h:outputText value="#{item.nome}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Ações" />
+					</f:facet>
+					<h:panelGroup>
+						<h:commandLink action="#{userMB.acaoAbrirAlteracao}"
+							immediate="true">
+							<f:param value="#{item.id}" name="itemId" />
+							<h:outputText value="Alterar"></h:outputText>
+						</h:commandLink>
+						-
+						<h:commandLink action="#{userMB.acaoExcluir}" immediate="true">
+							<f:param value="#{item.id}" name="itemId" />
+							<h:outputText value="Excluir"></h:outputText>
+						</h:commandLink>
+					</h:panelGroup>
+				</h:column>
+
+			</h:dataTable>
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>
+</html>
