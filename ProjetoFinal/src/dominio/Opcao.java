@@ -15,11 +15,6 @@ public class Opcao {
 	@Id
 	@GeneratedValue
 	private Long id;
-	private Status status;
-
-	private enum Status {
-		OpcaoEmBranco, OpcaoSelecionada, OpcaoErrada, OpcaoCerta
-	};
 
 	private String textoHtml;
 
@@ -31,10 +26,10 @@ public class Opcao {
 	@OneToMany(mappedBy = "opcao")
 	private Set<Responde> responde = new HashSet<Responde>();
 
-	public Opcao(Long id, Status status, String textoHtml, boolean ehcorreta, Questao questao) throws DominioException {
+	public Opcao(Long id, String textoHtml, boolean ehcorreta, Questao questao)
+			throws DominioException {
 		super();
 		this.id = id;
-		this.setStatus(status);
 		this.setTextoHtml(textoHtml);
 		this.setEhcorreta(ehcorreta);
 		this.setQuestão(questao);
@@ -50,14 +45,6 @@ public class Opcao {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public Status getStatus() {
-		return status;
-	}
-
-	public void setStatus(Status status) {
-		this.status = status;
 	}
 
 	public String getTextoHtml() {

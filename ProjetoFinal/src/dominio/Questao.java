@@ -18,7 +18,7 @@ public class Questao {
 	private Status status;
 
 	private enum Status {
-		QuestaoEmBranco, QuestaoSelecionada, QuestaoErrada, QuestaoCerta
+		EmElaboracao, Disponivel, EmAplicacao
 	};
 
 	private String textoHtml;
@@ -31,7 +31,8 @@ public class Questao {
 	@ManyToOne
 	private Professor professor;
 
-	public Questao(Long id, Status status, String textoHtml, Professor professor) throws DominioException {
+	public Questao(Long id, Status status, String textoHtml, Professor professor)
+			throws DominioException {
 		super();
 		this.id = id;
 		this.setStatus(status);

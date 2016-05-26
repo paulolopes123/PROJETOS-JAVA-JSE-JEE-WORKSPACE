@@ -10,14 +10,14 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
-public class Professor {
+public class Professor extends Usuario {
 	@Id
 	@GeneratedValue
 	private Long id;
 	private Status status;
 
 	private enum Status {
-		Contratado, Lincenca, AptoMinistrarAulas, Ferias, Demitido
+		aptoUsarSistema, inaptoUsarSistema
 	}
 
 	private String nome;
@@ -32,7 +32,8 @@ public class Professor {
 	@OneToMany(mappedBy = "professor")
 	private Set<AplicacaoDeProva> aplicacao = new HashSet<AplicacaoDeProva>();
 
-	public Professor(Long id, Status status, String nome, String matr) throws DominioException {
+	public Professor(Long id, Status status, String nome, String matr)
+			throws DominioException {
 		super();
 		this.id = id;
 		this.setStatus(status);

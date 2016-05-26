@@ -10,36 +10,32 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
-public class Aluno {
+public class Aluno extends Usuario {
 	@Id
 	@GeneratedValue
 	private Long id;
 	private Status status;
 
 	private enum Status {
-		Matriculado, Trancado, EmRenovacao, Cancelado
+		aptoUsarSistema, inaptoUsarSistema
 	};
 
 	private String nome;
 	@Column(unique = true)
 	private String matr;
-	@Column(unique = true)
-	private String senha;
-	@Column(unique = true)
-	private String login;
+
 	@OneToMany(mappedBy = "aluno")
 	private Set<AplicacaoDeProva> aplicacao = new HashSet<AplicacaoDeProva>();
 	@OneToMany(mappedBy = "aluno")
 	private Set<RealizacaoDeProva> realizacao = new HashSet<RealizacaoDeProva>();
 
-	public Aluno(Long id, Status status, String nome, String matr, String senha, String login) throws DominioException {
+	public Aluno(Long id, Status status, String nome, String matr) throws DominioException {
 		super();
 		this.id = id;
 		this.setStatus(status);
 		this.setNome(nome);
 		this.setMatr(matr);
-		this.setSenha(senha);
-		this.setLogin(login);
+
 	}
 
 	public Aluno() {
@@ -78,24 +74,6 @@ public class Aluno {
 	public void setMatr(String matr) throws DominioException {
 		validarMatr(matr);
 		this.matr = matr;
-	}
-
-	public String getSenha() {
-		return senha;
-	}
-
-	public void setSenha(String senha) throws DominioException {
-		validarSenha(senha);
-		this.senha = senha;
-	}
-
-	public String getLogin() {
-		return login;
-	}
-
-	public void setLogin(String login) throws DominioException {
-		validarLogin(login);
-		this.login = login;
 	}
 
 	public Set<AplicacaoDeProva> getAplicação() {
@@ -156,18 +134,6 @@ public class Aluno {
 	public void validarMatr(String m) throws DominioException {
 		if (m == null || m.length() == 0)
 			throw new DominioException(ErroDominio.MATRICULA_NULA);
-	}
-
-	public void validarSenha(String s) throws DominioException {
-		if (s == null || s.length() == 0)
-			throw new DominioException(ErroDominio.SENHA_INVALIDA);
-
-	}
-
-	public void validarLogin(String l) throws DominioException {
-		if (l == null || l.length() == 0)
-			throw new DominioException(ErroDominio.LOGIN_INVALIDO);
-
 	}
 
 }
