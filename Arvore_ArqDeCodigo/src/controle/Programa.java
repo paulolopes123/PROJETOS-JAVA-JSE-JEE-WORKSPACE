@@ -1,0 +1,56 @@
+package controle;
+
+import java.util.Scanner;
+
+import dominio.ArvoreBinariaBusca;
+
+public class Programa {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		// vamos criar um novo objeto da classe ArvoreBinariaBusca
+		ArvoreBinariaBusca arvore = new ArvoreBinariaBusca();
+
+		// vamos inserir 5 valores na árvore
+		for (int i = 0; i < 5; i++) {
+			System.out.print("Informe um valor inteiro:\n ");
+			int valor = Integer.parseInt(entrada.nextLine());
+
+			// vamos inserir o nó e verificar o sucesso da operação
+			if (!arvore.insereAluno(valor)) {
+				System.out.println("Não foi possível inserir o valor " + valor + ". Um elemento já contém este valor.");
+			} else {
+				System.out.println("O valor " + valor + " Foi inserido com sucesso ");
+			}
+		}
+		// Informa a Altura da Árvore
+		System.out.println("\nAltura da Árvore:");
+		System.out.println(arvore.alturaArvore());
+		// Informa a Quantidade de nós da árvore
+		System.out.println("\nQuantidade de nós da Árvore:");
+		System.out.println(arvore.qtdNoArvore());
+
+		// vamos exibir os nós da árvore usando o percurso em ordem
+		System.out.println("\nPercurso em-ordem:");
+		arvore.emOrdem();
+
+		System.out.println("\n");
+
+		// vamos exibir os nós da árvore usando o percurso em ordem
+		System.out.println("\nPercurso em pós-ordem:");
+		arvore.posOrdem();
+
+		System.out.println("\n");
+
+		// vamos exibir os nós da árvore usando o percurso em ordem
+		System.out.println("\nPercurso em pré-ordem:");
+		arvore.preOrdem();
+
+		System.out.println("\n");
+	}
+
+}

@@ -1,5 +1,6 @@
 package dominio;
 
+import java.io.Serializable;
 import java.sql.Time;
 import java.util.Date;
 import java.util.HashSet;
@@ -11,8 +12,18 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import controle.ITabelavel;
+
+/**
+ * Implementa a classe RealizaçãoDeProva que tem o "implements Serializable"
+ * para realizar o processo de serialização e o "implements Tabelavel" para
+ * informar que os objetos poderão ser exibidos em uma tabela de interface
+ * 
+ *
+ */
 @Entity
-public class RealizacaoDeProva {
+public class RealizacaoDeProva implements IDados, ITabelavel, Serializable {
+	// Atributos
 	@Id
 	@GeneratedValue
 	private Long id;
@@ -27,12 +38,14 @@ public class RealizacaoDeProva {
 	@OneToMany(mappedBy = "realizacao")
 	private Set<Responde> responde = new HashSet<Responde>();
 
-	public RealizacaoDeProva(Long id, Date data, Time horaInicio, Time horaFim) {
+	// Métodos
+	public RealizacaoDeProva(Long id, Date data, Time horaInicio, Time horaFim, Aluno aluno) throws DadosException {
 		super();
 		this.id = id;
-		this.data = data;
-		this.horaInicio = horaInicio;
-		this.horaFim = horaFim;
+		this.setData(data);
+		this.setHoraInicio(horaInicio);
+		this.setHoraFim(horaFim);
+		this.setAluno(aluno);
 	}
 
 	public RealizacaoDeProva() {
@@ -47,11 +60,12 @@ public class RealizacaoDeProva {
 		this.id = id;
 	}
 
-	public Date getData() {
+	public Date getDataa() {
 		return data;
 	}
 
-	public void setData(Date data) {
+	public void setData(Date data) throws DadosException {
+		validarData(data);
 		this.data = data;
 	}
 
@@ -59,7 +73,8 @@ public class RealizacaoDeProva {
 		return horaInicio;
 	}
 
-	public void setHoraInicio(Time horaInicio) {
+	public void setHoraInicio(Time horaInicio) throws DadosException {
+		validarHoraInicio(horaInicio);
 		this.horaInicio = horaInicio;
 	}
 
@@ -67,7 +82,8 @@ public class RealizacaoDeProva {
 		return horaFim;
 	}
 
-	public void setHoraFim(Time horaFim) {
+	public void setHoraFim(Time horaFim) throws DadosException {
+		validarHoraFim(horaFim);
 		this.horaFim = horaFim;
 	}
 
@@ -75,7 +91,7 @@ public class RealizacaoDeProva {
 		return aluno;
 	}
 
-	public void setAluno(Aluno aluno) {
+	public void setAluno(Aluno aluno) throws DadosException {
 		if (this.aluno == aluno)
 			return;
 		if (aluno == null) {
@@ -97,7 +113,7 @@ public class RealizacaoDeProva {
 		return aplicacaodeprova;
 	}
 
-	public void setAplicacaodeprova(AplicacaoDeProva aplicacaodeprova) {
+	public void setAplicacaodeprova(AplicacaoDeProva aplicacaodeprova) throws DadosException {
 		this.aplicacaodeprova = aplicacaodeprova;
 	}
 
@@ -106,7 +122,7 @@ public class RealizacaoDeProva {
 	}
 
 	// metodo adiciona Resposta do atributo de relacionamento n-ário
-	public void adicionaResposta(Responde responde) {
+	public void adicionaResposta(Responde responde) throws DadosException {
 		if (this.responde.contains(responde))
 			return;
 		this.responde.add(responde);
@@ -115,7 +131,7 @@ public class RealizacaoDeProva {
 	}
 
 	// metodo remove Resposta do atributo de relacionamento n-ário
-	public void removeResposta(Responde responde) {
+	public void removeResposta(Responde responde) throws DadosException {
 		if (!this.responde.contains(responde))
 			return;
 		this.responde.remove(responde);
@@ -123,28 +139,69 @@ public class RealizacaoDeProva {
 
 	}
 
-	@Override
+	/**
+	 * Implementação do método toString que retorna uma String que descreve o
+	 * objeto RealizaçãoDeProva
+	 */
 	public String toString() {
 		return "RealizacaoDeProva [horaInicio=" + horaInicio + ", horaFim=" + horaFim + "]";
 	}
 
 	// validação dos atributos
-	public void validarData(Date d) throws DominioException {
+	@RegraDeDominio
+	public void validarData(Date d) throws DadosException {
 		if (d == null || ((CharSequence) d).length() == 0)
-			throw new DominioException(ErroDominio.DATA_INVALIDA);
+			throw new DadosException(new ErroDeDominio(1, "Data Inválido"));
 
 	}
 
-	public void validarHoraInicio(Time i) throws DominioException {
+	@RegraDeDominio
+	public void validarHoraInicio(Time i) throws DadosException {
 		if (i == null || ((CharSequence) i).length() == -1)
-			throw new DominioException(ErroDominio.HORA_INICIO_INVALIDA);
+			throw new DadosException(new ErroDeDominio(2, "Hora de início inválida"));
 
 	}
 
-	public void validarHoraFim(Time f) throws DominioException {
+	@RegraDeDominio
+	public void validarHoraFim(Time f) throws DadosException {
 		if (f == null || ((CharSequence) f).length() == -1)
-			throw new DominioException(ErroDominio.HORA_FIM_INVALIDA);
+			throw new DadosException(new ErroDeDominio(3, "Hora fim inválida"));
 
+	}
+
+	@RegraDeDominio
+	public void validarAluno(Aluno aluno) throws DadosException {
+		if (aluno == null)
+			throw new DadosException(new ErroDeDominio(4, "Aluno não pode ser nulo"));
+
+	}
+
+	@RegraDeDominio
+	public void validarAplicacaoDeProva(AplicacaoDeProva aplicacao) throws DadosException {
+		if (aplicacao == null)
+			throw new DadosException(new ErroDeDominio(5, "Aplicação não pode ser nula"));
+
+	}
+
+	@RegraDeDominio
+	public void validarResponde(Responde responde) throws DadosException {
+		// Não há regras de validação
+	}
+
+	/**
+	 * Retorna um array de Objects com os estados dos atributos dos objetos
+	 * 
+	 * @return
+	 */
+	public Object[] getData() {
+		// TODO Auto-generated method stub
+		return new Object[] { this.data };
+	}
+
+	@Override
+	public Object getChave() {
+		// TODO Auto-generated method stub
+		return id;
 	}
 
 }

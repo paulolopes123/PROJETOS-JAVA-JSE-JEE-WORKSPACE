@@ -1,0 +1,19 @@
+package dominio;
+
+public class ArvoreBinaria {
+	private NoArvore raiz;
+
+	public ArvoreBinaria() {
+		super();
+		raiz = null;
+
+	}
+
+	public boolean arvoreVazia() {
+		if (raiz == null)
+			return true;
+		return false;
+
+	}
+
+}

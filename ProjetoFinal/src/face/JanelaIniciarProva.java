@@ -1,0 +1,94 @@
+package face;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import controle.ControleException;
+import controle.CtrlIniciarProva;
+import controle.CtrlPrograma;
+import dominio.DadosException;
+
+public class JanelaIniciarProva extends JFrame {
+
+	private JPanel contentPane;
+	private CtrlIniciarProva ctrl;
+
+	/**
+	 * Launch the application.
+	 */
+
+	/**
+	 * Create the frame.
+	 */
+	public JanelaIniciarProva(CtrlIniciarProva c) {
+		this.ctrl = c;
+		setTitle("Iniciar Prova");
+		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		setBounds(100, 100, 650, 450);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		JComboBox combox = new JComboBox();
+		combox.setBounds(168, 36, 190, 30);
+		contentPane.add(combox);
+
+		JLabel lblSelecProva = new JLabel("Selecione a Prova:");
+		lblSelecProva.setBounds(10, 40, 134, 22);
+		contentPane.add(lblSelecProva);
+
+		JButton btnIniciar = new JButton("Iniciar");
+		btnIniciar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					executarIniciar();
+				} catch (DadosException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+				
+			}
+		});
+		btnIniciar.setBounds(77, 145, 89, 23);
+		contentPane.add(btnIniciar);
+
+		JButton btnCanc = new JButton("Cancelar");
+		btnCanc.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				executarCancelar();
+			}
+		});
+		btnCanc.setBounds(250, 145, 89, 23);
+		contentPane.add(btnCanc);
+		this.setVisible(true);
+	}
+	
+	
+	public void executarCancelar() {
+		try {
+			ctrl.terminar();
+		} catch (ControleException e) {
+			JOptionPane.showMessageDialog(null, e.getMessage());
+			e.printStackTrace();
+		}
+	}
+	
+	public void executarIniciar() throws DadosException  {
+		try {
+			ctrl.iniciarProva();
+		} catch (ControleException e) {
+			JOptionPane.showMessageDialog(null, e.getMessage());
+			e.printStackTrace();
+		}
+	}
+}

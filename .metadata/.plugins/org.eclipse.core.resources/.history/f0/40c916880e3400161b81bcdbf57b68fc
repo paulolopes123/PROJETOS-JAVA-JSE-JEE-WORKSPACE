@@ -1,0 +1,87 @@
+package controle;
+
+import controle.CtrlElaborarProva.Status;
+import dominio.DadosException;
+import dominio.Prova;
+import dominio.Questao;
+import face.JanelaElaborarProva;
+import face.JanelaElaborarQuestao;
+
+public class CtrlElaborarQuestao {
+	
+	/**
+	 * Referência para o controlador do programa.
+	 */
+	private final CtrlPrograma ctrlPrg;
+
+	/**
+	 * Referência para a janela elaborar Questão
+	 */
+	private JanelaElaborarQuestao jElaborarQuestao;
+
+	/**
+	 * Referência para o objeto Prova sendo manipulado
+	 */
+	private Questao atual;
+
+	/**
+	 * Atributo que indica qual operação está em curso
+	 */
+	private Status status;
+	
+	
+
+	//
+	// MÉTODOS
+	//
+
+	/**
+	 * Construtor da classe CtrlElaborarProva
+	 */
+	
+	public CtrlElaborarProva(CtrlPrograma p) throws ControleException, DadosException {
+		// Guardo a referência para o controlador do programa
+		this.ctrlPrg = p;
+		// Iniciando o caso de uso
+		this.iniciar();
+	}
+	
+
+	public void iniciar() throws ControleException, DadosException {
+		// Crio e abro a janela de elaboração da prova
+		this.jElaborarProva = new JanelaElaborarProva(this);
+		
+		// Não há Prova em manipulação
+		this.atual = null;
+		// Informo que o controlador de caso de uso está disponível
+		this.setStatus(Status.EmElaboracao);
+	}
+
+	public void terminar() throws ControleException {
+		if (this.status == Status.Pronta)
+			return;
+		// Não há Prova em manipulação
+		this.atual = null;
+		// Fecho a janela
+		this.jElaborarProva.setVisible(false);
+		// Informo que o controlador está encerrado
+		this.setStatus(Status.Pronta);
+		// Notifico ao controlador do programa o término do caso de uso
+		this.ctrlPrg.terminarCasoDeUsoCtrlElaborarProva();
+	}
+
+	public Status getStatus() {
+		return this.status;
+	}
+
+	/**
+	 * 
+	 * @param novo
+	 * @throws ControleException
+	 */
+	public void setStatus(Status novo) throws ControleException {
+		Status.validarTransicaoStatus(this.status, novo);
+		this.status = novo;
+	}
+
+}

@@ -20,3 +20,670 @@
 2016-04-28 21:29:41,549 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-04-28 21:29:41,551 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-04-28 21:29:41,553 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-28 23:16:46,575 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-28 23:16:46,594 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-28 23:16:46,599 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-28 23:16:46,603 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 20:38:57,204 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-29 20:38:57,235 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 20:38:57,251 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-29 20:38:57,251 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:24:46,388 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:24:46,485 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-04-29 21:24:46,488 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-04-29 21:24:46,488 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-04-29 21:24:46,488 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-04-29 21:24:47,738 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-29 21:24:47,738 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:24:47,738 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-29 21:24:47,738 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:24:47,738 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:24:47,738 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:24:47,753 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2016-04-29 21:24:47,753 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2016-04-29 21:24:47,769 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-29 21:31:34,320 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:31:34,342 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:31:34,342 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:31:34,859 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:31:34,874 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:31:34,874 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:31:34,874 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:31:34,874 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:31:34,874 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:31:34,874 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:31:34,874 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:31:34,890 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:31:34,890 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:31:34,890 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:33:48,680 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-29 21:33:48,834 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:33:48,849 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:33:48,865 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:33:49,112 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:33:49,112 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:33:49,282 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-04-29 21:33:49,313 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-04-29 21:33:50,616 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:33:50,618 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:33:50,622 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:33:50,622 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:33:50,623 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:33:50,623 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:33:50,631 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:33:50,637 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:33:50,645 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:33:50,652 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:33:50,658 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:34:29,397 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:34:29,417 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:34:29,423 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:34:30,027 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:34:30,027 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:34:30,027 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:34:30,027 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:34:30,027 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:34:30,027 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:34:30,027 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:34:30,042 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:34:30,042 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:34:30,042 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:34:30,042 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:36:19,208 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:36:20,194 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:36:20,194 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:36:20,210 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:36:20,210 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:36:20,210 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:36:20,210 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:36:20,210 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:36:29,724 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:36:29,729 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:36:29,745 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:36:30,277 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:36:30,277 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:36:30,277 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:36:30,277 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:36:30,277 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:36:30,277 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:36:30,277 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:36:30,293 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:36:30,293 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:36:30,293 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:36:30,293 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:37:04,256 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:37:04,288 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:37:04,288 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:37:04,898 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:37:04,913 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:37:04,913 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:37:04,913 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:37:04,913 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:37:04,913 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:37:04,913 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:37:04,913 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:37:04,929 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:37:04,929 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:37:04,929 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:38:13,421 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:38:13,421 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:38:13,421 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:38:13,421 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:38:22,775 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:38:22,806 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:38:22,806 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:38:23,388 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:38:23,390 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:38:23,394 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:38:23,394 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:38:23,394 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:38:23,394 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:38:23,400 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:38:23,405 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:38:23,409 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:38:23,413 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:38:23,418 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:41:30,533 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:41:30,533 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:41:30,548 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:41:30,548 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:41:32,019 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:41:32,019 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:41:32,019 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:41:32,019 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:44:01,526 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:01,526 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:44:01,541 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:01,541 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:44:15,205 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-29 21:44:15,375 [Worker-45] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:44:15,390 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:44:15,390 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:44:15,575 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:44:15,575 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:44:15,691 [Worker-45] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-04-29 21:44:15,722 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-04-29 21:44:16,893 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:16,893 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:44:16,893 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:16,893 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:44:16,893 [Worker-48] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:44:16,893 [Worker-48] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:44:16,893 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:44:16,908 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:44:16,908 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:44:16,908 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:44:16,924 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:39,648 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:39,651 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:44:39,652 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:44:39,652 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:45:55,645 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:45:55,645 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:45:55,645 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:45:55,645 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:47:42,973 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-29 21:47:43,105 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:47:43,136 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:47:43,136 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:47:43,190 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:47:43,205 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:47:43,274 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-04-29 21:47:43,305 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-04-29 21:47:44,162 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:47:44,162 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:47:44,165 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:47:44,166 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:47:44,166 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:47:44,166 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:47:44,171 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:47:44,175 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:47:44,180 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:47:44,185 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:47:44,186 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:48:35,143 [Worker-50] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 21:48:35,159 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:48:35,174 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 21:48:35,691 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:48:35,691 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:48:35,691 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:48:35,691 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:48:35,691 [Worker-50] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 21:48:35,691 [Worker-50] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 21:48:35,691 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:48:35,707 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:48:35,707 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 21:48:35,707 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 21:48:35,724 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:49:50,061 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:49:50,061 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 21:49:50,061 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 21:49:50,061 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 22:17:41,599 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:17:41,599 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 22:17:41,615 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:17:41,615 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 22:18:08,242 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-04-29 22:18:08,257 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 22:18:08,257 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-04-29 22:18:08,862 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:18:08,864 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 22:18:08,867 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:18:08,867 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 22:18:08,868 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-04-29 22:18:08,868 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-04-29 22:18:08,875 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 22:18:08,880 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 22:18:08,886 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-04-29 22:18:08,891 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-04-29 22:18:08,897 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:24:50,336 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:24:50,336 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-29 22:24:50,336 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 22:24:50,336 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:39:56,011 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:39:56,095 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:39:56,100 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:39:56,149 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:40:01,561 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:40:03,183 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:40:03,287 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-05-01 09:40:03,306 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:40:03,313 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:40:03,472 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-05-01 09:40:03,481 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:40:03,489 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:40:03,837 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-05-01 09:40:03,843 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:40:03,849 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:40:03,855 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+2016-05-01 09:40:03,860 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:40:03,866 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:40:04,196 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:40:04,253 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:40:05,137 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:40:05,138 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:40:05,141 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:40:05,141 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:40:05,141 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:40:05,142 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:40:05,147 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-05-01 09:40:05,151 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-05-01 09:40:05,155 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2016-05-01 09:40:05,162 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2016-05-01 09:40:05,171 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 is missing, no dependency information available
+2016-05-01 09:40:05,175 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-compiler-plugin:jar:3.0 has not been downloaded from it before.
+2016-05-01 09:40:05,182 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:42:14,786 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:42:17,071 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.jar
+2016-05-01 09:42:17,521 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.jar
+2016-05-01 09:42:18,059 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.pom
+2016-05-01 09:42:18,414 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.pom
+2016-05-01 09:42:19,806 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.pom
+2016-05-01 09:42:19,985 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.pom
+2016-05-01 09:42:21,106 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.pom
+2016-05-01 09:42:21,336 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.pom
+2016-05-01 09:42:21,513 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.0/plexus-compiler-2.0.pom
+2016-05-01 09:42:21,693 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.0/plexus-compiler-2.0.pom
+2016-05-01 09:42:21,861 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+2016-05-01 09:42:22,072 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+2016-05-01 09:42:22,480 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.pom
+2016-05-01 09:42:22,636 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.pom
+2016-05-01 09:42:23,009 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.pom
+2016-05-01 09:42:23,322 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.pom
+2016-05-01 09:42:23,600 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.0/plexus-compilers-2.0.pom
+2016-05-01 09:42:23,863 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.0/plexus-compilers-2.0.pom
+2016-05-01 09:42:24,809 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.jar
+2016-05-01 09:42:25,003 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.jar
+2016-05-01 09:42:25,261 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.jar
+2016-05-01 09:42:25,578 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.0/plexus-compiler-api-2.0.jar
+2016-05-01 09:42:25,878 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.jar
+2016-05-01 09:42:26,146 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.jar
+2016-05-01 09:42:26,337 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.jar
+2016-05-01 09:42:26,500 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.jar
+2016-05-01 09:42:27,325 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:42:29,159 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:42:29,159 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:42:29,171 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:42:29,171 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:42:29,532 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:42:29,553 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2016-05-01 09:42:29,765 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:42:29,766 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:42:29,769 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:42:29,770 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:42:29,770 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:42:29,770 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:42:29,776 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:44:04,351 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:44:05,676 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:44:06,729 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:44:06,730 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:44:06,730 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:44:06,731 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:44:06,958 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:44:06,977 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:44:07,173 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:44:07,174 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:44:07,177 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:44:07,178 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:44:07,178 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:44:07,178 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:44:07,201 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:44:46,440 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:44:47,420 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:44:48,406 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:44:48,406 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:44:48,406 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:44:48,406 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:44:48,522 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:44:48,551 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:44:48,726 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:44:48,727 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:44:48,730 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:44:48,730 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:44:48,731 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:44:48,731 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:44:48,738 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:45:39,401 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/maven-metadata.xml
+2016-05-01 09:45:39,765 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/maven-metadata.xml
+2016-05-01 09:45:40,278 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.5.1/maven-site-plugin-3.5.1.pom
+2016-05-01 09:45:40,644 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.5.1/maven-site-plugin-3.5.1.pom
+2016-05-01 09:45:41,129 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2016-05-01 09:45:41,513 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2016-05-01 09:45:42,044 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+2016-05-01 09:45:42,744 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+2016-05-01 09:45:43,497 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2016-05-01 09:45:44,175 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2016-05-01 09:45:45,024 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.5.1/maven-site-plugin-3.5.1.jar
+2016-05-01 09:45:50,079 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.5.1/maven-site-plugin-3.5.1.jar
+2016-05-01 09:45:50,240 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:45:51,933 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:45:53,203 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:45:53,205 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:45:53,207 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:45:53,208 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:45:53,208 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:45:53,208 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:45:53,212 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:46:36,795 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:46:37,715 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:46:38,705 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:46:38,705 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:46:38,706 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:46:38,706 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:46:38,821 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:46:38,856 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:46:39,582 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:46:39,583 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:46:39,585 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:46:39,585 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:46:39,585 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:46:39,585 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:46:39,590 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:49:43,714 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:49:43,726 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:49:43,731 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:49:43,732 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:50:17,507 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:50:18,754 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:50:18,801 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:50:18,808 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:50:18,816 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:50:18,822 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:50:19,795 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:50:19,796 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:50:19,796 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:50:19,796 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:50:19,868 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:50:19,873 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:50:19,877 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-05-01 09:50:19,882 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.4: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.4
+2016-05-01 09:50:19,994 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:50:20,026 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:50:20,222 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:50:20,222 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:50:20,225 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:50:20,225 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:50:20,225 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:50:20,226 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:50:20,232 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2016-05-01 09:50:20,243 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2016-05-01 09:50:20,256 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:51:30,033 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:51:30,034 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:51:30,037 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:51:30,038 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:51:51,140 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:51:52,168 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:51:53,108 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:51:53,108 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:51:53,108 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:51:53,108 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:51:53,244 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:51:53,285 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:51:53,481 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:51:53,482 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:51:53,485 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:51:53,486 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:51:53,486 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:51:53,486 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:51:53,494 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:52:42,688 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:52:42,691 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:52:42,693 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:52:42,693 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:52:53,151 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-01 09:52:54,040 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:FinanceiroMaven:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\FinanceiroMaven\pom.xml.
+2016-05-01 09:52:54,870 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/main/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:52:54,870 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/main/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:52:54,870 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /FinanceiroMaven/src/test/java because it overlaps with /FinanceiroMaven/src
+2016-05-01 09:52:54,871 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /FinanceiroMaven/src/test/resources overlaps with sources folder /FinanceiroMaven/src
+2016-05-01 09:52:55,059 [Worker-11] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure FinanceiroMaven
+org.eclipse.m2e.wtp.MarkedException: Unable to configure FinanceiroMaven
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2016-05-01 09:52:55,283 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FinanceiroMaven
+2016-05-01 09:52:55,307 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-01 09:52:55,554 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:52:55,555 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:52:55,559 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:52:55,560 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:52:55,560 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FinanceiroMaven
+2016-05-01 09:52:55,560 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FinanceiroMaven
+2016-05-01 09:52:55,569 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:53:40,250 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:53:40,250 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 09:53:40,250 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 09:53:40,250 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 13:04:27,949 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 13:04:27,961 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-01 13:04:27,966 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-01 13:04:27,966 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-02 11:39:47,403 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-02 11:39:47,450 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-02 11:39:47,453 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-02 11:39:47,468 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-02 12:03:18,920 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-02 12:03:18,926 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-02 12:03:18,927 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-02 12:03:18,928 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-02 17:45:50,261 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-02 17:45:50,300 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-02 17:45:50,304 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-02 17:45:50,305 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-03 21:24:12,858 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-03 21:24:12,884 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-03 21:24:12,887 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-03 21:24:12,887 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-03 21:41:28,157 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-03 21:41:28,161 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-03 21:41:28,163 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-03 21:41:28,164 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-03 22:05:59,796 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-03 22:05:59,803 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-03 22:05:59,806 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-03 22:05:59,807 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-04 11:26:00,037 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-04 11:26:00,050 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-04 11:26:00,056 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-04 11:26:00,056 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-04 16:52:42,403 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-04 16:52:42,414 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-04 16:52:42,417 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-04 16:52:42,417 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-07 11:43:20,953 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-07 11:43:20,973 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-07 11:43:20,976 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-07 11:43:20,977 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-08 18:28:40,839 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 18:28:40,862 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-08 18:28:40,865 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 18:28:40,866 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-10 19:35:17,372 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 19:35:17,406 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-10 19:35:17,409 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 19:35:17,409 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-12 14:35:44,877 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 14:35:44,932 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-12 14:35:44,935 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 14:35:44,944 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-12 21:17:24,523 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 21:17:24,886 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-12 21:17:24,889 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 21:17:24,937 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-13 19:41:36,850 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-13 19:41:36,873 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-13 19:41:36,876 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-13 19:41:36,876 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-17 00:20:41,724 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-17 00:20:41,806 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-17 00:20:41,809 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-17 00:20:41,810 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-17 19:47:28,001 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-17 19:47:28,021 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-17 19:47:28,024 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-17 19:47:28,024 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-18 23:43:41,097 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:43:41,147 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-18 23:43:41,150 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:43:41,150 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-19 18:36:10,703 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 18:36:10,752 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-19 18:36:10,757 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 18:36:10,757 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-20 20:29:55,907 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 20:29:55,947 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-20 20:29:55,950 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 20:29:55,950 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-22 13:43:26,182 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-22 13:43:26,205 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-22 13:43:26,208 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-22 13:43:26,208 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-23 18:49:42,533 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-23 18:49:42,553 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-23 18:49:42,556 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-23 18:49:42,556 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-23 22:46:16,330 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-23 22:46:16,347 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-23 22:46:16,353 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-23 22:46:16,355 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-23 22:50:39,049 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-23 22:50:39,063 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-23 22:50:39,068 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-23 22:50:39,069 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-24 18:34:20,301 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-24 18:34:20,323 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-24 18:34:20,327 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-24 18:34:20,328 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-24 18:43:41,376 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-24 18:43:41,387 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-24 18:43:41,390 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-24 18:43:41,392 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-28 16:18:56,687 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-28 16:18:56,741 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-28 16:18:56,744 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-28 16:18:56,744 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-30 11:38:29,096 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-30 11:38:29,120 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-30 11:38:29,124 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-30 11:38:29,134 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-30 22:17:02,997 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-30 22:17:03,006 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-05-30 22:17:03,011 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-30 22:17:03,012 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-03 19:12:16,225 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-03 19:12:16,256 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-03 19:12:16,256 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-03 19:12:16,256 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-03 22:24:33,775 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-03 22:24:33,833 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-03 22:24:33,838 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-03 22:24:33,839 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-04 15:52:15,300 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-04 15:52:15,323 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-04 15:52:15,326 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-04 15:52:15,327 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-06 12:16:46,301 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-06 12:16:46,332 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-06 12:16:46,348 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-06 12:16:46,348 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-06 12:30:33,232 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-06 12:30:33,242 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-06 12:30:33,245 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-06 12:30:33,245 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-06 19:46:14,138 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-06 19:46:14,147 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-06 19:46:14,150 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-06 19:46:14,151 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-07 11:25:02,079 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-07 11:25:02,124 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-07 11:25:02,132 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-07 11:25:02,133 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-08 11:06:41,786 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 11:06:41,797 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-08 11:06:41,802 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 11:06:41,803 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-08 20:18:57,796 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 20:18:57,829 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-08 20:18:57,833 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 20:18:57,834 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-09 12:49:40,876 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-09 12:49:40,884 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-09 12:49:40,887 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-09 12:49:40,888 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-12 15:31:15,615 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-12 15:31:15,637 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-12 15:31:15,641 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-12 15:31:15,642 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-13 15:04:21,028 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-13 15:04:21,074 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-13 15:04:21,079 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-13 15:04:21,080 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-13 19:29:28,850 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-13 19:29:28,885 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-13 19:29:28,890 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-13 19:29:28,890 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-15 10:25:58,530 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-15 10:25:58,608 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-15 10:25:58,611 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-15 10:25:58,612 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 13:37:46,009 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 13:37:46,073 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 13:37:46,076 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 13:37:46,077 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 17:44:43,460 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 17:44:43,471 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 17:44:43,476 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 17:44:43,476 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 17:55:32,945 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 17:55:32,956 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 17:55:32,963 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 17:55:32,963 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 18:00:15,080 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 18:00:15,093 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 18:00:15,098 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 18:00:15,099 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 21:23:01,448 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 21:23:01,456 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-16 21:23:01,460 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-16 21:23:01,461 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-17 01:09:28,347 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-17 01:09:28,358 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-17 01:09:28,361 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-17 01:09:28,363 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-17 12:31:32,290 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-17 12:31:32,302 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-17 12:31:32,306 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-17 12:31:32,307 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-17 13:55:53,873 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-17 13:55:53,881 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-17 13:55:53,884 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-17 13:55:53,885 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

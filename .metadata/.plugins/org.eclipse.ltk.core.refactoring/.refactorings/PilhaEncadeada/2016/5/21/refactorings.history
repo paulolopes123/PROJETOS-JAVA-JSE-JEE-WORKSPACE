@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dominio.PilhaEncadeada&apos; to &apos;PilhaDinamica&apos;&#x0D;&#x0A;- Original project: &apos;PilhaEncadeada&apos;&#x0D;&#x0A;- Original element: &apos;dominio.PilhaEncadeada&apos;&#x0D;&#x0A;- Renamed element: &apos;dominio.PilhaDinamica&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PilhaEncadeada&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;dominio{PilhaEncadeada.java[PilhaEncadeada" matchStrategy="1" name="PilhaDinamica" qualified="false" references="true" similarDeclarations="false" stamp="1463628878943" textual="false" version="1.0"/>
+</session>

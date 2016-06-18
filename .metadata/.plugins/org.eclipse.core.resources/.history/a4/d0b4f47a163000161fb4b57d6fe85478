@@ -1,0 +1,27 @@
+package controle;
+
+import dominio.ArvoreBinariaBusca;
+
+/*
+ * Escreva uma aplicação Java que contenha uma árvore binária de busca cujos nós guardarão,
+ *  além das referências para o filho esquerdo e o filho direito, apenas um valor inteiro.
+ *   Forneça um método inserir() que permitirá inserir os valores na árvore. Em seguida forneça
+ *    um método recursivo que permitirá fazer a travessia in-order da árvore.
+ * 
+ * 
+ * 
+ */
+public class ProgramaPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// vamos criar um novo objeto da classe ArvoreBinariaBusca
+		ArvoreBinariaBusca arvore = new ArvoreBinariaBusca();
+		
+		
+		
+		
+	}
+
+}

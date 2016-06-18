@@ -1,5 +1,6 @@
 package dominio;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -10,17 +11,40 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import controle.ITabelavel;
+import dominio.RegraDeDominio;
+import dominio.DadosException;
+import dominio.ErroDeDominio;
+import dominio.IDados;
+
+/**
+ * Implementa a classe Questão que tem o "implements Serializable" para realizar
+ * o processo de serialização e o "implements Tabelavel" para informar que os
+ * objetos poderão ser exibidos em uma tabela de interface
+ * 
+ *
+ */
+
 @Entity
-public class Questao {
+public class Questao implements IDados, ITabelavel, Serializable {
+
+	private enum Status {
+		EmElaboracao, Disponivel, EmAplicacao;
+
+		public static void validarTransicaoStatus(Status anterior, Status novo) throws DadosException {
+			if (anterior == null && novo == Disponivel || anterior == EmElaboracao && novo == Disponivel
+					|| anterior == EmElaboracao && novo == EmAplicacao || anterior == Disponivel && novo == EmElaboracao
+					|| anterior == Disponivel && novo == EmElaboracao)
+				return;
+		}
+
+	};
+
+	// Atributos
 	@Id
 	@GeneratedValue
 	private Long id;
 	private Status status;
-
-	private enum Status {
-		EmElaboracao, Disponivel, EmAplicacao
-	};
-
 	private String textoHtml;
 	@OneToMany(mappedBy = "questao")
 	private Set<Peso> peso = new HashSet<Peso>();
@@ -31,11 +55,11 @@ public class Questao {
 	@ManyToOne
 	private Professor professor;
 
-	public Questao(Long id, Status status, String textoHtml, Professor professor)
-			throws DominioException {
+	// Métodos
+	public Questao(Long id, Status status, String textoHtml, Professor professor) throws DadosException {
 		super();
 		this.id = id;
-		this.setStatus(status);
+		this.setStatus(status.EmElaboracao);// estado inicial
 		this.setTextoHtml(textoHtml);
 		this.setProfessor(professor);
 
@@ -54,18 +78,19 @@ public class Questao {
 	}
 
 	public Status getStatus() {
-		return status;
+		return this.status;
 	}
 
-	public void setStatus(Status status) {
-		this.status = status;
+	public void setStatus(Status novo) throws DadosException {
+		status.validarTransicaoStatus(this.status, novo);
+		this.status = novo;
 	}
 
 	public String getTextoHtml() {
 		return textoHtml;
 	}
 
-	public void setTextoHtml(String textoHtml) throws DominioException {
+	public void setTextoHtml(String textoHtml) throws DadosException {
 		validarTexto(textoHtml);
 		this.textoHtml = textoHtml;
 	}
@@ -75,7 +100,7 @@ public class Questao {
 	}
 
 	// metodo adiciona Peso do atributo de relacionamento n-ário
-	public void adicionaPeso(Peso peso) {
+	public void adicionaPeso(Peso peso) throws DadosException {
 		if (this.peso.contains(peso))
 			return;
 		this.peso.add(peso);
@@ -84,7 +109,8 @@ public class Questao {
 	}
 
 	// metodo remove Peso do atributo de relacionamento n-ário
-	public void removePeso(Peso peso) {
+
+	public void removePeso(Peso peso) throws DadosException {
 		if (!this.peso.contains(peso))
 			return;
 		this.peso.remove(peso);
@@ -97,7 +123,7 @@ public class Questao {
 	}
 
 	// metodo adiciona resposta do atributo de relacionamento n-ário
-	public void adicionaResposta(Responde responde) {
+	public void adicionaResposta(Responde responde) throws DadosException {
 		if (this.responde.contains(responde))
 			return;
 		this.responde.add(responde);
@@ -106,7 +132,7 @@ public class Questao {
 	}
 
 	// metodo remove resposta do atributo de relacionamento n-ário
-	public void removeResposta(Responde responde) {
+	public void removeResposta(Responde responde) throws DadosException {
 		if (!this.responde.contains(responde))
 			return;
 		this.responde.remove(responde);
@@ -119,7 +145,7 @@ public class Questao {
 	}
 
 	// metodo adiciona Opção do atributo de relacionamento n-ário
-	public void adicionaOpcao(Opcao opcao) {
+	public void adicionaOpcao(Opcao opcao) throws DadosException {
 		if (this.opcao.contains(opcao))
 			return;
 		this.opcao.add(opcao);
@@ -128,7 +154,7 @@ public class Questao {
 	}
 
 	// metodo remove Opção do atributo de relacionamento n-ário
-	public void removeOpcao(Opcao opcao) {
+	public void removeOpcao(Opcao opcao) throws DadosException {
 		if (!this.opcao.contains(opcao))
 			return;
 		this.opcao.remove(opcao);
@@ -140,15 +166,17 @@ public class Questao {
 		return professor;
 	}
 
-	public void setProfessor(Professor professor) {
+	public void setProfessor(Professor professor) throws DadosException {
 		if (this.professor == professor)
 			return;
 		if (this.professor == null) {
+			this.setStatus(Status.EmElaboracao);
 			Professor antigo = this.professor;
 			this.professor = null;
 			antigo.removeQuestao(this);
 
 		} else {
+			this.setStatus(Status.Disponivel);
 			if (this.professor != null) {
 
 				this.professor.removeQuestao(this);
@@ -161,15 +189,48 @@ public class Questao {
 
 	}
 
-	@Override
+	/**
+	 * Implementação do método toString que retorna uma String que descreve o
+	 * objeto Questão
+	 */
 	public String toString() {
 		return "Questão [textoHtml=" + textoHtml + "]";
 	}
 
 	// validação dos atributos
-	public void validarTexto(String t) throws DominioException {
+	@RegraDeDominio
+	public void validarTexto(String t) throws DadosException {
 		if (t == null || t.length() == 0)
-			throw new DominioException(ErroDominio.TEXTO_INVALIDO);
+			throw new DadosException(new ErroDeDominio(1, "O Texto não pode ser nulo"));
+	}
+
+	@RegraDeDominio
+	public void validarPeso(Peso peso) throws DadosException {
+		if (peso == null)
+			throw new DadosException(new ErroDeDominio(2, "O Peso não pode ser nulo"));
+	}
+
+	@RegraDeDominio
+	public void validarResponde(Responde responde) throws DadosException {
+		// Não há regras de validação
+	}
+
+	@RegraDeDominio
+	public void validarOpcao(Opcao opcao) throws DadosException {
+		// Não há regras de validação
+	}
+
+	/**
+	 * Retorna um array de Objects com os estados dos atributos dos objetos
+	 * 
+	 * @return
+	 */
+	public Object[] getData() {
+		return new Object[] { this.textoHtml };
+	}
+
+	public Object getChave() {
+		return id;
 	}
 
 }

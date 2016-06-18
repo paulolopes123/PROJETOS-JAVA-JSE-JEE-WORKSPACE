@@ -1,0 +1,114 @@
+package controle;
+
+import dominio.DadosException;
+import dominio.Prova;
+import face.JanelaAlterarProva;
+import face.JanelaElaborarProva;
+import face.JanelaIncluirQuestao;
+
+public class CtrlAlterarProva {
+	//
+	// ATRIBUTOS
+	//
+	public enum Status {
+		EmAlteracao, Pronta;
+
+		public static void validarTransicaoStatus(Status anterior, Status novo) throws ControleException {
+			if (anterior == null && novo == EmAlteracao || anterior == EmAlteracao && novo == Pronta
+					|| anterior == Pronta)
+				return;
+			throw new ControleException(new ErroDeControle(1, "Não se pode sair do estado "
+					+ (anterior == null ? "NULO" : anterior) + " e ir para o estado " + novo));
+		}
+	}
+
+	/**
+	 * Referência para o controlador do programa.
+	 */
+	private final CtrlPrograma ctrlPrg;
+
+	/**
+	 * Referência para a janela alterar Prova
+	 */
+	private JanelaAlterarProva jAlterarProva;
+	/**
+	 * Referência para a janela incluir Questão
+	 */
+	private JanelaIncluirQuestao jIncluirQuestao;
+
+	/**
+	 * Referência para o objeto Prova sendo manipulado
+	 */
+	private Prova atual;
+
+	/**
+	 * Atributo que indica qual operação está em curso
+	 */
+	private Status status;
+
+	//
+	// MÉTODOS
+	//
+
+	/**
+	 * Construtor da classe CtrlElaborarProva
+	 */
+
+	public CtrlAlterarProva(CtrlPrograma p) throws ControleException, DadosException {
+		// Guardo a referência para o controlador do programa
+		this.ctrlPrg = p;
+		// Iniciando o caso de uso
+		this.iniciar();
+	}
+
+	public void iniciar() throws ControleException, DadosException {
+		// Crio e abro a janela de alteração da prova
+		this.jAlterarProva = new JanelaAlterarProva(this);
+
+		// Não há Prova em manipulação
+		this.atual = null;
+		// Informo que o controlador de caso de uso está disponível
+		this.setStatus(Status.EmAlteracao);
+	}
+
+	public void incluirQuestao() throws ControleException, DadosException {
+		// Crio e abro a janela de inclusão de questão
+		this.jIncluirQuestao = new JanelaIncluirQuestao(this);
+	}
+
+	public void terminar() throws ControleException {
+		if (this.status == Status.Pronta)
+			return;
+		// Não há Prova em manipulação
+		this.atual = null;
+		// Fecho a janela
+		this.jAlterarProva.setVisible(false);
+		// Informo que o controlador está encerrado
+		this.setStatus(Status.Pronta);
+	}
+
+	public void terminarQuestao() throws ControleException {
+		// if (this.status == Status.Pronta)
+		// return;
+		// Não há Prova em manipulação
+		// this.atual = null;
+		// Fecho a janela
+		this.jIncluirQuestao.setVisible(false);
+		// Informo que o controlador está encerrado
+		// this.setStatus(Status.Pronta);
+	}
+
+	public Status getStatus() {
+		return this.status;
+	}
+
+	/**
+	 * 
+	 * @param novo
+	 * @throws ControleException
+	 */
+	public void setStatus(Status novo) throws ControleException {
+		Status.validarTransicaoStatus(this.status, novo);
+		this.status = novo;
+	}
+}

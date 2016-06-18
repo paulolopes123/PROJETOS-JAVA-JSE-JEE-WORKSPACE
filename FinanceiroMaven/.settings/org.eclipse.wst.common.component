@@ -4,6 +4,6 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="java-output-path" value="/FinanceiroMaven/build/classes"/>
-        <property name="context-root" value="financeiro"/>
+        <property name="context-root" value="FinanceiroMaven"/>
     </wb-module>
 </project-modules>

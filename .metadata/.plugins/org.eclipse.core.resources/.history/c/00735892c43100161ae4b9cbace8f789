@@ -1,0 +1,43 @@
+package dominio;
+
+public class ArvoreBinaria {
+	private NoArvore raiz;
+
+	public ArvoreBinaria() {
+		super();
+		raiz = null;
+
+	}
+
+	public boolean arvoreVazia() {
+		if (raiz == null)
+			return true;
+		return false;
+
+	}
+
+	public void inserirNaArvore(int valor) {
+		NoArvore noAtual = raiz;
+		if (arvoreVazia()) {
+			noAtual = new NoArvore(valor);
+			System.out.println("Valor inserido com sucesso");
+		} else {
+
+			if (valor < noAtual.getValor()) {
+				if (noAtual.getEsquerdo() != null) {
+					inserirNaArvore(valor);
+				} else {
+					noAtual.setEsquerdo(new NoArvore(valor));
+				}
+			} else if (valor > noAtual.getValor()) {
+				if (noAtual.getDireito() != null) {
+					inserirNaArvore(valor);
+
+				} else {
+					noAtual.setDireito(new NoArvore(valor));
+				}
+			}
+		}
+	}
+
+}

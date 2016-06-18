@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="dominio.DominioException"/>
+<fullyQualifiedTypeName name="face.JanelaIniciarProva"/>
+<fullyQualifiedTypeName name="dominio.Prova"/>
+<fullyQualifiedTypeName name="face.JanelaProva"/>
+<fullyQualifiedTypeName name="controle.CtrlIniciarProva"/>
+<fullyQualifiedTypeName name="dominio.Professor"/>
+<fullyQualifiedTypeName name="dominio.Aluno"/>
+<fullyQualifiedTypeName name="controle.CtrlPrograma"/>
+<fullyQualifiedTypeName name="face.JanelaProfessor"/>
+<fullyQualifiedTypeName name="face.JanelaAluno"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="face.JanelaElaborarProva"/>
+<fullyQualifiedTypeName name="controle.CtrlLogin"/>
+<fullyQualifiedTypeName name="controle.CtrlElaborarProva"/>
+<fullyQualifiedTypeName name="java.sql.Time"/>
+<fullyQualifiedTypeName name="controle.ControleException"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="controle.CtrlAlterarProva"/>
+<fullyQualifiedTypeName name="face.JanelaIncluirQuestaoAlteracao"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,27 @@
+-----------------------------------------------------------------------------------------------------------------------
+1) Toda classe de interface tem um atributo que referencia o Controlador de Caso de Uso que o gerencia. Esta referência 
+é obtida através do construtor da classe de interface gráfica.
+
+2) Não esqueça de colocar this.setVisible(true) no construtor das janelas
+
+3) No momento que for desenhar as janelas, diga que o Layout é NULL
+
+4) Para colocação de um JTable, você deverá colocar primeiramente um JScrollPane, para depois colocar o JTable. Todo
+JTable deverá ter um model definido utilizando o método setModel (ilustrado abaixo).
+
+		
+		table = new JTable();
+		table.setModel(new DefaultTableModel(
+			new Object[][] {
+			},
+			new String[] {
+				"Cpf", "Nome", "Departamento"
+			}
+		));
+		table.getColumnModel().getColumn(0).setPreferredWidth(108);
+		table.getColumnModel().getColumn(1).setPreferredWidth(269);
+		table.getColumnModel().getColumn(2).setPreferredWidth(247);
+		scrollPane.setViewportView(table);
+
+5) Cada botão deverá ter uma callback no actionPerfomed. Gere sempre um método na janela que seja ativado no 
+actionPerformed

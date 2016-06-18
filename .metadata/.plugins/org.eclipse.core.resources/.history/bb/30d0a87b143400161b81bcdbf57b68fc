@@ -1,0 +1,60 @@
+package controle;
+
+import controle.CtrlElaborarProva.Status;
+import dominio.DadosException;
+import dominio.Prova;
+import dominio.Questao;
+import face.JanelaElaborarProva;
+import face.JanelaElaborarQuestao;
+
+public class CtrlElaborarQuestao {
+
+	/**
+	 * Referência para o controlador do programa.
+	 */
+	private final CtrlPrograma ctrlPrg;
+
+	/**
+	 * Referência para a janela elaborar Questão
+	 */
+	private JanelaElaborarQuestao jElaborarQuestao;
+
+	
+
+	//
+	// MÉTODOS
+	//
+
+	/**
+	 * Construtor da classe CtrlElaborarProva
+	 */
+
+	public CtrlElaborarQuestao(CtrlPrograma p) throws ControleException, DadosException {
+		// Guardo a referência para o controlador do programa
+		this.ctrlPrg = p;
+		// Iniciando o caso de uso
+		this.iniciar();
+	}
+
+	public void iniciar() throws ControleException, DadosException {
+		// Crio e abro a janela de elaboração da questão
+		this.jElaborarQuestao = new JanelaElaborarQuestao(this);
+
+	}
+
+	public void terminar() throws ControleException {
+
+		// Fecho a janela
+		this.jElaborarQuestao.setVisible(false);
+
+		// Notifico ao controlador do programa o término do caso de uso
+		this.ctrlPrg.terminarCasoDeUsoCtrlElaborarQuestao();
+	}
+
+	/**
+	 * 
+	 * @param novo
+	 * @throws ControleException
+	 */
+
+}

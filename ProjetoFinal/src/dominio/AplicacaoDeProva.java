@@ -1,5 +1,6 @@
 package dominio;
 
+import java.io.Serializable;
 import java.sql.Time;
 import java.util.Date;
 import java.util.HashSet;
@@ -12,18 +13,34 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
-@Entity
-public class AplicacaoDeProva {
+import controle.ITabelavel;
 
+/**
+ * Implementa a classe Aplicação de prova que tem o "implements Serializable"
+ * para realizar o processo de serialização e o "implements Tabelavel" para
+ * informar que os objetos poderão ser exibidos em uma tabela de interface
+ * 
+ *
+ */
+
+@Entity
+public class AplicacaoDeProva implements IDados, ITabelavel, Serializable {
+
+	private enum Status {
+		Disponivel, EmRealizacao, Finalizada;
+		public static void validarTransicaoStatus(Status anterior, Status novo) throws DadosException {
+			if (anterior == null && novo == EmRealizacao || anterior == Disponivel && novo == EmRealizacao
+					|| anterior == Disponivel && novo == Finalizada || anterior == EmRealizacao && novo == Disponivel
+					|| anterior == EmRealizacao && novo == Disponivel)
+				return;
+		}
+	};
+
+	// Atributos
 	@Id
 	@GeneratedValue
 	private Long id;
 	private Status status;
-
-	private enum Status {
-		Disponivel, EmRealizacao, Finalizada
-	};
-
 	private Date dataInicio;
 
 	private Date dataFim;
@@ -34,11 +51,12 @@ public class AplicacaoDeProva {
 	@ManyToOne
 	private Professor professor;
 
+	// Métodos
 	public AplicacaoDeProva(Long id, Status status, Date dataInicio, Date dataFim, Time horaInicio, Time horaFim,
-			Prova prova, Aluno aluno, Professor professor) throws DominioException {
+			Prova prova, Aluno aluno, Professor professor) throws DadosException {
 		super();
 		this.id = id;
-		this.setStatus(status);
+		this.setStatus(status.EmRealizacao);// estado inicial
 		this.setDataInicio(dataInicio);
 		this.setDataFim(dataFim);
 		this.setProva(prova);
@@ -62,15 +80,16 @@ public class AplicacaoDeProva {
 		return status;
 	}
 
-	public void setStatus(Status status) {
-		this.status = status;
+	public void setStatus(Status novo) throws DadosException {
+		status.validarTransicaoStatus(this.status, novo);
+		this.status = novo;
 	}
 
 	public Date getDataInicio() {
 		return dataInicio;
 	}
 
-	public void setDataInicio(Date dataInicio) throws DominioException {
+	public void setDataInicio(Date dataInicio) throws DadosException {
 		validarDataInicio(dataInicio);
 		this.dataInicio = dataInicio;
 	}
@@ -79,7 +98,7 @@ public class AplicacaoDeProva {
 		return dataFim;
 	}
 
-	public void setDataFim(Date dataFim) throws DominioException {
+	public void setDataFim(Date dataFim) throws DadosException {
 		validarDataFim(dataFim);
 		this.dataFim = dataFim;
 	}
@@ -88,15 +107,16 @@ public class AplicacaoDeProva {
 		return prova;
 	}
 
-	public void setProva(Prova prova) {
+	public void setProva(Prova prova) throws DadosException {
 		if (this.prova == prova)
 			return;
 		if (prova == null) {
+			this.setStatus(Status.EmRealizacao);
 			Prova antigo = this.prova;
 			this.prova = null;
 			antigo.removeAplicacaoDeProva(this);
 		} else {
-
+			this.setStatus(Status.Disponivel);
 			if (this.prova != null)
 				this.prova.removeAplicacaoDeProva(this);
 			this.prova = prova;
@@ -108,14 +128,16 @@ public class AplicacaoDeProva {
 		return aluno;
 	}
 
-	public void setAluno(Aluno aluno) {
+	public void setAluno(Aluno aluno) throws DadosException {
 		if (this.aluno == aluno)
 			return;
 		if (aluno == null) {
+			this.setStatus(Status.EmRealizacao);
 			Aluno antigo = this.aluno;
 			this.prova = null;
 			antigo.removeAplicacaoDeProva(this);
 		} else {
+			this.setStatus(Status.Finalizada);
 
 			if (this.aluno != null)
 				this.aluno.removeAplicacaoDeProva(this);
@@ -128,15 +150,17 @@ public class AplicacaoDeProva {
 		return professor;
 	}
 
-	public void setProfessor(Professor professor) {
+	public void setProfessor(Professor professor) throws DadosException {
 
 		if (this.professor == professor)
 			return;
 		if (professor == null) {
+			this.setStatus(Status.EmRealizacao);
 			Professor antigo = this.professor;
 			this.professor = null;
 			antigo.removeAplicacaoDeProva(this);
 		} else {
+			this.setStatus(Status.Finalizada);
 
 			if (this.professor != null)
 				this.professor.removeAplicacaoDeProva(this);
@@ -145,22 +169,60 @@ public class AplicacaoDeProva {
 		}
 	}
 
-	@Override
+	/**
+	 * Implementação do método toString que retorna uma String que descreve o
+	 * objeto AplicaçãoDeProva
+	 */
 	public String toString() {
 		return "Aplicação [aluno=" + aluno + "]";
 	}
 
 	// validação dos atributos
-	public void validarDataInicio(Date d) throws DominioException {
+	@RegraDeDominio
+	public void validarDataInicio(Date d) throws DadosException {
 		if (d == null || ((CharSequence) d).length() == 0)
-			throw new DominioException(ErroDominio.DATA_INVALIDA);
+			throw new DadosException(new ErroDeDominio(1, "Data De Início Inválida"));
 
 	}
 
-	public void validarDataFim(Date d) throws DominioException {
+	@RegraDeDominio
+	public void validarDataFim(Date d) throws DadosException {
 		if (d == null || ((CharSequence) d).length() == 0)
-			throw new DominioException(ErroDominio.DATA_INVALIDA);
+			throw new DadosException(new ErroDeDominio(2, "Data De Fim Inválida"));
 
+	}
+
+	@RegraDeDominio
+	public void validarProva(Prova prova) throws DadosException {
+		if (prova == null)
+			throw new DadosException(new ErroDeDominio(3, "Precisa haver alguma prova em aplicação"));
+	}
+
+	@RegraDeDominio
+	public void validarAluno(Aluno aluno) throws DadosException {
+		// não há regras de validação
+	}
+
+	@RegraDeDominio
+	public void validarProfessor(Professor professor) throws DadosException {
+		if (professor == null)
+			throw new DadosException(new ErroDeDominio(4, "Precisa haver algum professor aplicando prova"));
+	}
+
+	/**
+	 * Retorna um array de Objects com os estados dos atributos dos objetos
+	 * 
+	 * @return
+	 */
+	public Object[] getData() {
+		// TODO Auto-generated method stub
+		return new Object[] { this.dataInicio, this.dataFim };
+	}
+
+	@Override
+	public Object getChave() {
+		// TODO Auto-generated method stub
+		return id;
 	}
 
 }

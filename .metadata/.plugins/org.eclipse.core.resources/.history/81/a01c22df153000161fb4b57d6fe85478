@@ -1,0 +1,76 @@
+package dominio;
+
+/*
+ * Escreva uma aplicação Java que contenha uma árvore binária de busca cujos nós guardarão,
+ *  além das referências para o filho esquerdo e o filho direito, apenas um valor inteiro.
+ *   Forneça um método inserir() que permitirá inserir os valores na árvore. Em seguida forneça
+ *    um método recursivo que permitirá fazer a travessia in-order da árvore.
+ * 
+ * 
+ * 
+ */
+public class ArvoreBinariaBusca {
+	private NoArvore raiz;// referência para o nó raiz da arvoré
+
+	public ArvoreBinariaBusca() {
+		super();
+		raiz = null;// inicializando o nó raiz como null
+	}
+
+	// método usado para inserir um novo nó na árvore
+	// retorna true se o nó for inserido com sucesso e false se o elemento
+	// não puder ser inserido (no caso de já existir um elemento igual)
+	public boolean inserir(int valor) {
+
+		// A árvore ainda está vazia?
+		if (raiz == null) {
+			// vamos criar o primeiro nó e definí-lo como a raiz da árvore
+			raiz = new NoArvore(valor);// cria um novo nó
+		} else {
+			// localiza o nó Pai
+			NoArvore pai = null;
+			NoArvore noAtual = raiz;// começa a busca pela raiz
+			// enquanto o nó atual for diferente de null
+			while (noAtual != null) {
+				if (valor < noAtual.getValor()) {
+
+					pai = noAtual;
+					noAtual = noAtual.getEsquerdo();
+				} else if (valor > noAtual.getValor()) {
+
+					pai = noAtual;
+					noAtual = noAtual.getDireito();
+				} else {
+					return false;// Um nó com este valor já existe
+
+				}
+			}
+
+			// cria o novo nó e o adiciona ao nó pai
+			if (valor < pai.getValor()) {
+				pai.setEsquerdo(new NoArvore(valor));
+
+			} else {
+
+				pai.setDireito(new NoArvore(valor));
+			}
+
+		}
+		return true; // retorna true para indicar que o novo nó foi inserido
+	}
+
+	// Método que permite disparar a travessia em-ordem
+	public void emOrdem() {
+
+		emOrdem(raiz);
+
+	}
+	// sobrecarga do método emOrdem com um parâmetro (esta é a versão recursiva
+	// do método)
+
+	public void emOrdem(NoArvore raiz) {
+
+		if (raiz == null)// condição de parada
+			return;
+	}
+}

@@ -1,12 +1,25 @@
 package dominio;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import controle.ITabelavel;
+
+/**
+ * Implementa a classe Comentário que tem o "implements Serializable" para
+ * realizar o processo de serialização e o "implements Tabelavel" para informar
+ * que os objetos poderão ser exibidos em uma tabela de interface
+ * 
+ *
+ */
+
 @Entity
-public class Comentario {
+public class Comentario implements IDados, ITabelavel, Serializable {
+	// Atributos
 	@Id
 	@GeneratedValue
 	private Long id;
@@ -17,7 +30,8 @@ public class Comentario {
 	@ManyToOne
 	private Professor professor;
 
-	public Comentario(Long id, String textoHtml, Opcao opcao, Professor professor) throws DominioException {
+	// Métodos
+	public Comentario(Long id, String textoHtml, Opcao opcao, Professor professor) throws DadosException {
 		super();
 
 		this.id = id;
@@ -42,7 +56,7 @@ public class Comentario {
 		return textoHtml;
 	}
 
-	public void setTextoHtml(String textoHtml) throws DominioException {
+	public void setTextoHtml(String textoHtml) throws DadosException {
 		validarTexto(textoHtml);
 		this.textoHtml = textoHtml;
 	}
@@ -51,7 +65,7 @@ public class Comentario {
 		return opcao;
 	}
 
-	public void setOpcao(Opcao opcao) {
+	public void setOpcao(Opcao opcao) throws DadosException {
 		if (this.opcao == opcao)
 			return;
 		if (opcao == null) {
@@ -73,7 +87,7 @@ public class Comentario {
 		return professor;
 	}
 
-	public void setProfessor(Professor professor) {
+	public void setProfessor(Professor professor) throws DadosException {
 		if (this.professor == professor)
 			return;
 		if (professor == null) {
@@ -91,15 +105,47 @@ public class Comentario {
 		}
 	}
 
-	@Override
+	/**
+	 * Implementação do método toString que retorna uma String que descreve o
+	 * objeto Comentário
+	 */
 	public String toString() {
 		return "Comentário [textoHtml=" + textoHtml + "]";
 	}
 
 	// validação dos atributos
-	public void validarTexto(String t) throws DominioException {
+	@RegraDeDominio
+	public void validarTexto(String t) throws DadosException {
 		if (t == null || t.length() == 0)
-			throw new DominioException(ErroDominio.TEXTO_INVALIDO);
+			throw new DadosException(new ErroDeDominio(1, "O Texto não pode ser nulo"));
+	}
+
+	@RegraDeDominio
+	public void validarOpcao(Opcao opcao) throws DadosException {
+		if (opcao == null)
+			throw new DadosException(new ErroDeDominio(2, "A opção não pode ser nulo"));
+	}
+
+	@RegraDeDominio
+	public void validarProfessor(Professor professor) throws DadosException {
+		if (professor == null)
+			throw new DadosException(new ErroDeDominio(3, "O Professor não pode ser nulo"));
+	}
+
+	/**
+	 * Retorna um array de Objects com os estados dos atributos dos objetos
+	 * 
+	 * @return
+	 */
+	public Object[] getData() {
+		// TODO Auto-generated method stub
+		return new Object[] { this.textoHtml, this.professor.getNome() };
+	}
+
+	@Override
+	public Object getChave() {
+		// TODO Auto-generated method stub
+		return id;
 	}
 
 }

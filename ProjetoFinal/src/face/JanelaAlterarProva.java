@@ -1,0 +1,113 @@
+package face;
+
+import java.awt.List;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.border.EmptyBorder;
+
+import controle.ControleException;
+import controle.CtrlAlterarProva;
+import controle.CtrlElaborarProva;
+import dominio.DadosException;
+
+public class JanelaAlterarProva extends JFrame {
+
+	private JPanel contentPane;
+	private CtrlAlterarProva ctrl;
+
+	/**
+	 * Launch the application.
+	 */
+
+	/**
+	 * Create the frame.
+	 */
+	public JanelaAlterarProva(CtrlAlterarProva c) {
+		
+		this.ctrl = c;
+		setTitle("Alterar Prova");
+		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		setBounds(100, 100, 650, 450);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		JLabel lblSelecioneAProva = new JLabel("Selecione a Prova:");
+		lblSelecioneAProva.setBounds(10, 11, 141, 14);
+		contentPane.add(lblSelecioneAProva);
+
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(120, 8, 156, 20);
+		contentPane.add(comboBox);
+
+		List list = new List();
+		list.setBounds(228, 40, 48, 214);
+		contentPane.add(list);
+
+		JTextArea textArea = new JTextArea();
+		textArea.setBounds(282, 40, 152, 214);
+		contentPane.add(textArea);
+
+		JButton btnOk = new JButton("OK");
+		btnOk.setBounds(10, 57, 89, 23);
+		contentPane.add(btnOk);
+
+		JButton btnIncluirQuesto = new JButton("Incluir Quest\u00E3o");
+		btnIncluirQuesto.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				try {
+					executarIncluir();
+				} catch (DadosException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+
+			}
+		});
+		btnIncluirQuesto.setBounds(10, 110, 122, 23);
+		contentPane.add(btnIncluirQuesto);
+
+		JButton btnExcluirQuesto = new JButton("Excluir Quest\u00E3o");
+		btnExcluirQuesto.setBounds(10, 165, 122, 23);
+		contentPane.add(btnExcluirQuesto);
+
+		JButton btnCancelar = new JButton("Cancelar");
+		btnCancelar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				executarCancelar();
+			}
+		});
+		btnCancelar.setBounds(114, 57, 89, 23);
+		contentPane.add(btnCancelar);
+		this.setVisible(true);
+	}
+
+	public void executarIncluir() throws DadosException {
+		try {
+			ctrl.incluirQuestao();
+		} catch (ControleException e) {
+			JOptionPane.showMessageDialog(null, e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	public void executarCancelar() {
+		try {
+			ctrl.terminar();
+		} catch (ControleException e) {
+			JOptionPane.showMessageDialog(null, e.getMessage());
+			e.printStackTrace();
+		}
+	}
+}
