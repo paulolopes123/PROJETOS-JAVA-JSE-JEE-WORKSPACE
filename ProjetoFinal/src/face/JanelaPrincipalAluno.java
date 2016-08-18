@@ -65,6 +65,20 @@ public class JanelaPrincipalAluno extends JFrame {
 		menuBar.add(mnConsult);
 
 		JMenuItem mnProva1 = new JMenuItem("Prova");
+		mnProva1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				try {
+					ctrlPrg.iniciarCasoDeUsoCtrlConsultarProva();
+				} catch (ControleException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				} catch (DadosException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				}
+			}
+		});
 		mnConsult.add(mnProva1);
 
 		JMenu mnsairal = new JMenu("Sair");

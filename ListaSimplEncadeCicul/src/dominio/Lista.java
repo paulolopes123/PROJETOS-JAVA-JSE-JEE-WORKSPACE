@@ -22,18 +22,21 @@ public class Lista {
 
 	public void insereNaoOrdenado(int info) {
 		Noh novo = new Noh();
-		novo.setProx(null);
+		
+		novo.setInfo(info);
 		// caso seja o primeiro Noh
 		if (tahVazia()) {
-			novo.setInfo(info);
-			ptLista = novo;
 			novo.setProx(ptLista);
+			ptLista = novo;
 			total++;
 
 		}
 		// caso não seja o primeiro Noh
+		// pendura o nó
 		ptLista.setProx(novo);
 		ptLista = novo;
+		// Faz com que a lista "acesse" o objeto novaPessoa (insere
+		// efetivamente o objeto na lista)
 		novo.setProx(ptLista);
 		total++;
 
@@ -82,7 +85,7 @@ public class Lista {
 		Noh noh = ptLista;
 		while (noh != null) {
 			System.out.println(noh.getInfo());
-			noh.getProx();
+			noh = noh.getProx();
 
 		}
 

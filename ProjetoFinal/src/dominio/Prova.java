@@ -40,6 +40,7 @@ public class Prova implements IDados, ITabelavel, Comparable<Prova>, Serializabl
 	@GeneratedValue
 	private Long id;
 	private String nome;
+	private String textoHtml;
 	private Status status;
 	private boolean disponivel;
 	@OneToMany(mappedBy = "prova")
@@ -50,12 +51,12 @@ public class Prova implements IDados, ITabelavel, Comparable<Prova>, Serializabl
 	private Professor professor;
 
 	// Métodos
-	public Prova(Long id, String nome, Status status, boolean disponivel, Professor professor) throws DadosException {
+	public Prova(String nome,String textoHtml) throws DadosException {
 		super();
-		this.id = id;
 		this.setNome(nome);
+		this.setTextoHtml(textoHtml);
 		this.setStatus(status.EmElaboracao);// Estado inicial
-		this.setDisponivel(disponivel);
+		//this.setDisponivel(disponivel);
 		this.setProfessor(professor);
 	}
 
@@ -79,6 +80,16 @@ public class Prova implements IDados, ITabelavel, Comparable<Prova>, Serializabl
 		validarNome(nome);
 		this.nome = nome;
 	}
+	
+	public String getTextoHtml() {
+		return textoHtml;
+	}
+
+	public void setTextoHtml(String textoHtml) throws DadosException {
+		validarTexto(textoHtml);
+		this.textoHtml = textoHtml;
+	}
+
 
 	public Status getStatus() {
 		return status;
@@ -177,6 +188,11 @@ public class Prova implements IDados, ITabelavel, Comparable<Prova>, Serializabl
 	public void validarNome(String n) throws DadosException {
 		if (n == null || n.length() == 0)
 			throw new DadosException(new ErroDeDominio(1, "O Nome não pode ser nulo!"));
+	}
+	@RegraDeDominio
+	public void validarTexto(String t) throws DadosException {
+		if (t == null || t.length() == 0)
+			throw new DadosException(new ErroDeDominio(1, "O Texto não pode ser nulo"));
 	}
 
 	@RegraDeDominio

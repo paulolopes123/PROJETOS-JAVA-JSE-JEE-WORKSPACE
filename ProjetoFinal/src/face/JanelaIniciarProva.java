@@ -1,20 +1,21 @@
 package face;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.List;
 
-import javax.swing.JButton;
-import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
 import controle.ControleException;
 import controle.CtrlIniciarProva;
-import controle.CtrlPrograma;
-import dominio.DadosException;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class JanelaIniciarProva extends JFrame {
 
@@ -30,62 +31,53 @@ public class JanelaIniciarProva extends JFrame {
 	 */
 	public JanelaIniciarProva(CtrlIniciarProva c) {
 		this.ctrl = c;
-		setTitle("Iniciar Prova");
-		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		setTitle("Prova");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 650, 450);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		JComboBox combox = new JComboBox();
-		combox.setBounds(168, 36, 190, 30);
-		contentPane.add(combox);
+		JTextArea textArea = new JTextArea();
+		textArea.setBounds(95, 53, 289, 235);
+		contentPane.add(textArea);
 
-		JLabel lblSelecProva = new JLabel("Selecione a Prova:");
-		lblSelecProva.setBounds(10, 40, 134, 22);
-		contentPane.add(lblSelecProva);
+		JLabel lblProva = new JLabel("Prova:");
+		lblProva.setBounds(95, 11, 63, 14);
+		contentPane.add(lblProva);
 
-		JButton btnIniciar = new JButton("Iniciar");
-		btnIniciar.addActionListener(new ActionListener() {
+		List list_1 = new List();
+		list_1.setBounds(10, 53, 63, 235);
+		contentPane.add(list_1);
+
+		JButton btnFinPr = new JButton("Finalizar Prova");
+		btnFinPr.setBounds(339, 319, 157, 23);
+		contentPane.add(btnFinPr);
+
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(156, 8, 228, 20);
+		contentPane.add(comboBox);
+
+		JButton btnIniciarProva = new JButton("Iniciar Prova");
+		btnIniciarProva.setBounds(172, 319, 136, 23);
+		contentPane.add(btnIniciarProva);
+
+		JButton btnCancelar = new JButton("Cancelar");
+		btnCancelar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				try {
-					executarIniciar();
-				} catch (DadosException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				
-				
-			}
-		});
-		btnIniciar.setBounds(77, 145, 89, 23);
-		contentPane.add(btnIniciar);
 
-		JButton btnCanc = new JButton("Cancelar");
-		btnCanc.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
 				executarCancelar();
 			}
 		});
-		btnCanc.setBounds(250, 145, 89, 23);
-		contentPane.add(btnCanc);
+		btnCancelar.setBounds(37, 319, 89, 23);
+		contentPane.add(btnCancelar);
 		this.setVisible(true);
 	}
-	
-	
+
 	public void executarCancelar() {
 		try {
 			ctrl.terminar();
-		} catch (ControleException e) {
-			JOptionPane.showMessageDialog(null, e.getMessage());
-			e.printStackTrace();
-		}
-	}
-	
-	public void executarIniciar() throws DadosException  {
-		try {
-			ctrl.iniciarProva();
 		} catch (ControleException e) {
 			JOptionPane.showMessageDialog(null, e.getMessage());
 			e.printStackTrace();

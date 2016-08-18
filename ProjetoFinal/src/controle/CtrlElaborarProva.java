@@ -1,5 +1,9 @@
 package controle;
 
+import javax.swing.JOptionPane;
+
+import dominio.DAO;
+import dominio.IDAO;
 import dominio.DadosException;
 import dominio.Prova;
 import face.JanelaElaborarProva;
@@ -40,6 +44,13 @@ public class CtrlElaborarProva {
 	 * Referência para o objeto Prova sendo manipulado
 	 */
 	private Prova atual;
+	
+	
+	
+	/**
+	 * Referência para o objeto DaoProva
+	 */
+	private IDAO<Prova> dao = (IDAO<Prova>)DAO.getDAO(Prova.class);
 
 	/**
 	 * Atributo que indica qual operação está em curso
@@ -88,14 +99,14 @@ public class CtrlElaborarProva {
 	}
 
 	public void terminarQuestao() throws ControleException {
-	//	if (this.status == Status.Pronta)
-		//	return;
+		// if (this.status == Status.Pronta)
+		// return;
 		// Não há Prova em manipulação
-		//this.atual = null;
+		// this.atual = null;
 		// Fecho a janela
 		this.jIncluirQuestao.setVisible(false);
 		// Informo que o controlador está encerrado
-		//this.setStatus(Status.Pronta);
+		// this.setStatus(Status.Pronta);
 	}
 
 	public Status getStatus() {
@@ -111,4 +122,21 @@ public class CtrlElaborarProva {
 		Status.validarTransicaoStatus(this.status, novo);
 		this.status = novo;
 	}
+
+	public void incluir(String nome,String textoHtml) throws ControleException, DadosException {
+		// Se o controlador não tinha ativado uma inclusao, não faço nada!
+		if (this.status != Status.EmElaboracao)
+			throw new ControleException(new ErroDeControle(3, "Não é possível concluir uma operação de inclusão"));
+		// Crio um novo objeto Prova
+		this.atual = new Prova(nome,textoHtml);
+		// Salvo o objeto prova usando o DAO
+		dao.salvar(this.atual);
+		JOptionPane.showMessageDialog(null,"Prova Elaborada com Sucesso!!");
+		// Fecho a janela Departamento
+		this.jElaborarProva.setVisible(false);
+		
+		// Indico que o controlador está disponível
+		this.setStatus(Status.Pronta);
+	}
+
 }

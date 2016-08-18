@@ -7,4 +7,6 @@ public class DadosException extends Exception {
 		super(erro.toString());
 		this.erro = erro;
 	}
+	
+	
 }

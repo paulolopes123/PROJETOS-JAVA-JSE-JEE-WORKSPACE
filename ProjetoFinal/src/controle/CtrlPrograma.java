@@ -20,7 +20,7 @@ import face.JanelaPrincipalProfessor;
 /**
  * Este é o controlador que gerencia a execução do meu programa.
  * 
- * @author Alessandro Cerqueira
+ * @author Paulo Roberto
  */
 public class CtrlPrograma {
 	//
@@ -56,14 +56,42 @@ public class CtrlPrograma {
 	/**
 	 * Referência para o controlador do caso de uso Corrigir Prova
 	 */
-	private CtrlCorrigirProva ctrlCorrigirProva;
-	
+	private CtrlCorrigirConsultarProva ctrlCorrigirProva;
 
 	/**
 	 * Referência para o controlador do caso de uso Alterar Prova
 	 */
 	private CtrlAlterarProva ctrlAlterarProva;
 
+	/**
+	 * Referência para o controlador do caso de uso Alterar Questão
+	 */
+	private CtrlAlterarQuestao ctrlAlterarQuestao;
+
+	/**
+	 * Referência para o controlador do caso de uso Excluir Prova
+	 */
+	private CtrlExcluirProva ctrlExcluirProva;
+
+	/**
+	 * Referência para o controlador do caso de uso Excluir Questão
+	 */
+	private CtrlExcluirQuestao ctrlExcluirQuestao;
+
+	/**
+	 * Referência para o controlador do caso de uso Disponibilização de Prova
+	 */
+	private CtrlDisponibilizarProva ctrlDisponibilizarProva;
+
+	/**
+	 * Referência para o controlador do caso de uso Duplicar de Prova
+	 */
+	private CtrlDuplicarProva ctrlDuplicarProva;
+
+	/**
+	 * Referência para o controlador do caso de uso Consultar de Prova
+	 */
+	private CtrlConsultarProva ctrlConsultarProva;
 
 	/**
 	 * Referência para a janela principal do programa
@@ -203,7 +231,7 @@ public class CtrlPrograma {
 
 	public void iniciarCasoDeUsoCtrlCorrigirProva() throws ControleException, DadosException {
 		// Instanciando os controladores de caso de uso do sistema
-		this.ctrlCorrigirProva = new CtrlCorrigirProva(this);
+		this.ctrlCorrigirProva = new CtrlCorrigirConsultarProva(this);
 	}
 
 	public void terminarCasoDeUsoCtrlCorrigirProva() throws ControleException {
@@ -223,6 +251,90 @@ public class CtrlPrograma {
 	public void terminarCasoDeUsoCtrlAlterarProva() throws ControleException {
 		this.ctrlAlterarProva.terminar();
 		this.ctrlAlterarProva = null;
+	}
+
+	//
+	// CASO DE USO - Alterar Questão
+	//
+
+	public void iniciarCasoDeUsoCtrlAlterarQuestao() throws ControleException, DadosException {
+		// Instanciando os controladores de caso de uso do sistema
+		this.ctrlAlterarQuestao = new CtrlAlterarQuestao(this);
+	}
+
+	public void terminarCasoDeUsoCtrlAlterarQuestao() throws ControleException {
+		this.ctrlAlterarQuestao.terminar();
+		this.ctrlAlterarQuestao = null;
+	}
+
+	//
+	// CASO DE USO - Excluir Prova
+	//
+
+	public void iniciarCasoDeUsoCtrlExcluirProva() throws ControleException, DadosException {
+		// Instanciando os controladores de caso de uso do sistema
+		this.ctrlExcluirProva = new CtrlExcluirProva(this);
+	}
+
+	public void terminarCasoDeUsoCtrlExcluirProva() throws ControleException {
+		this.ctrlExcluirProva.terminar();
+		this.ctrlExcluirProva = null;
+	}
+
+	//
+	// CASO DE USO - Excluir Questão
+	//
+
+	public void iniciarCasoDeUsoCtrlExcluirQuestao() throws ControleException, DadosException {
+		// Instanciando os controladores de caso de uso do sistema
+		this.ctrlExcluirQuestao = new CtrlExcluirQuestao(this);
+	}
+
+	public void terminarCasoDeUsoCtrlExcluirQuestao() throws ControleException {
+		this.ctrlExcluirQuestao.terminar();
+		this.ctrlExcluirQuestao = null;
+	}
+
+	//
+	// CASO DE USO - Disponibilizar Prova
+	//
+
+	public void iniciarCasoDeUsoCtrlDisponibilizarProva() throws ControleException, DadosException {
+		// Instanciando os controladores de caso de uso do sistema
+		this.ctrlDisponibilizarProva = new CtrlDisponibilizarProva(this);
+	}
+
+	public void terminarCasoDeUsoCtrlDisponibilizarProva() throws ControleException {
+		this.ctrlDisponibilizarProva.terminar();
+		this.ctrlDisponibilizarProva = null;
+	}
+
+	//
+	// CASO DE USO - Duplicar Prova
+	//
+
+	public void iniciarCasoDeUsoCtrlDuplicarProva() throws ControleException, DadosException {
+		// Instanciando os controladores de caso de uso do sistema
+		this.ctrlDuplicarProva = new CtrlDuplicarProva(this);
+	}
+
+	public void terminarCasoDeUsoCtrlDuplicarProva() throws ControleException {
+		this.ctrlDuplicarProva.terminar();
+		this.ctrlDuplicarProva = null;
+	}
+
+	//
+	// CASO DE USO - Consultar Prova
+	//
+
+	public void iniciarCasoDeUsoCtrlConsultarProva() throws ControleException, DadosException {
+		// Instanciando os controladores de caso de uso do sistema
+		this.ctrlConsultarProva = new CtrlConsultarProva(this);
+	}
+
+	public void terminarCasoDeUsoCtrlConsultarProva() throws ControleException {
+		this.ctrlConsultarProva.terminar();
+		this.ctrlConsultarProva = null;
 	}
 
 	public static void main(String[] args) throws ControleException, DadosException {

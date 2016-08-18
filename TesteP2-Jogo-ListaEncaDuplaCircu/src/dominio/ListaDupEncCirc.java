@@ -55,4 +55,19 @@ public class ListaDupEncCirc {
 		 */
 	}
 
+	public void listar() {
+		Pessoa ptAux = ptL;
+		if (ptL != null) {
+			System.out.println("---------------");
+			do {
+				System.out.println(ptAux.getNome());
+
+				System.out.println("---------------");
+				ptAux = ptAux.getProx();
+			} while (ptAux != ptL);
+		} else {
+			System.out.println("Lista Vazia!");
+		}
+	}
+
 }

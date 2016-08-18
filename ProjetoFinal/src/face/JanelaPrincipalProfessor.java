@@ -96,6 +96,45 @@ public class JanelaPrincipalProfessor extends JFrame {
 		});
 		mncorr.add(mnprcorr);
 
+		JMenu mnNewMenu = new JMenu("Excluir");
+		menuBar.add(mnNewMenu);
+
+		JMenuItem mntmProvas = new JMenuItem("Prova(s)");
+		mntmProvas.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				try {
+					ctrlPrg.iniciarCasoDeUsoCtrlExcluirProva();
+				} catch (ControleException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				} catch (DadosException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				}
+
+			}
+		});
+		mnNewMenu.add(mntmProvas);
+
+		JMenuItem mntmQuesto = new JMenuItem("Quest\u00E3o");
+		mntmQuesto.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				try {
+					ctrlPrg.iniciarCasoDeUsoCtrlExcluirQuestao();
+				} catch (ControleException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				} catch (DadosException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				}
+
+			}
+		});
+		mnNewMenu.add(mntmQuesto);
+
 		JMenu mnalt = new JMenu("Alterar");
 		menuBar.add(mnalt);
 
@@ -117,18 +156,63 @@ public class JanelaPrincipalProfessor extends JFrame {
 		mnalt.add(mnpralt);
 
 		JMenuItem mnquestalt = new JMenuItem("Quest\u00E3o");
+		mnquestalt.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				try {
+					ctrlPrg.iniciarCasoDeUsoCtrlAlterarQuestao();
+				} catch (ControleException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				} catch (DadosException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				}
+
+			}
+		});
 		mnalt.add(mnquestalt);
 
 		JMenu mndupl = new JMenu("Duplicar");
 		menuBar.add(mndupl);
 
 		JMenuItem mnprdupl = new JMenuItem("Prova(s)");
+		mnprdupl.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				try {
+					ctrlPrg.iniciarCasoDeUsoCtrlDuplicarProva();
+				} catch (ControleException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				} catch (DadosException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				}
+				
+			}
+		});
 		mndupl.add(mnprdupl);
 
 		JMenu mndispon = new JMenu("Disponibilizar");
 		menuBar.add(mndispon);
 
 		JMenuItem mnprdispon = new JMenuItem("Prova(s) Para Realiza\u00E7\u00E3o");
+		mnprdispon.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				
+				try {
+					ctrlPrg.iniciarCasoDeUsoCtrlDisponibilizarProva();
+				} catch (ControleException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				} catch (DadosException e1) {
+					JOptionPane.showMessageDialog(null, e1.getMessage());
+					e1.printStackTrace();
+				}
+				
+			}
+		});
 		mndispon.add(mnprdispon);
 
 		JMenu mnsair = new JMenu("Sair");
@@ -152,5 +236,4 @@ public class JanelaPrincipalProfessor extends JFrame {
 	public void executarTerminar() {
 		ctrlPrg.terminar();
 	}
-
 }

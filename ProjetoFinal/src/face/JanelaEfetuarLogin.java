@@ -96,5 +96,6 @@ public class JanelaEfetuarLogin extends JFrame {
 		pfSenha.setBounds(325, 91, 89, 20);
 		contentPane.add(pfSenha);
 		this.setVisible(true);
+		
 	}
 }

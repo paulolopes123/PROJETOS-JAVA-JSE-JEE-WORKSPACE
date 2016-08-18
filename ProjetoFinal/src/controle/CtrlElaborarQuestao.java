@@ -37,7 +37,7 @@ public class CtrlElaborarQuestao {
 					|| anterior == EmElaboracao && novo == EmAplicacao || anterior == Disponivel && novo == EmElaboracao
 					|| anterior == Disponivel && novo == EmElaboracao)
 				return;
-			
+
 		}
 
 	};
@@ -67,7 +67,7 @@ public class CtrlElaborarQuestao {
 
 	}
 
-	public void terminar() throws ControleException{
+	public void terminar() throws ControleException {
 
 		// Não há Prova em manipulação
 		this.atual = null;
@@ -86,7 +86,7 @@ public class CtrlElaborarQuestao {
 	 * 
 	 * @param novo
 	 * @throws ControleException
-	 * @throws DadosException 
+	 * @throws DadosException
 	 */
 	public void setStatus(Status novo) throws ControleException {
 		Status.validarTransicaoStatus(this.status, novo);

@@ -55,7 +55,6 @@ public class Lista {
 		aux = ptLista;
 		Nodo novo = new Nodo();
 		novo.setInfo(info);
-		novo.setProx(null);
 		while (aux != null && aux.getInfo() < info) {
 			ante = aux;
 			aux = aux.getProx();
@@ -64,7 +63,6 @@ public class Lista {
 		if (ante == null) {
 			novo.setProx(ptLista);
 			ptLista = novo;
-			aux = ptLista;
 
 		} else {
 			novo.setProx(ante.getProx());

@@ -8,23 +8,22 @@ import dominio.Nodo;
 public class Programa {
 
 	public static void main(String[] args) {
-
+		Scanner input = new Scanner(System.in);
 		Lista listaSimpEnc = new Lista();
 
-		listaSimpEnc.addNoInicioLista(5);
-		listaSimpEnc.addNoInicioLista(4);
-		listaSimpEnc.addNoInicioLista(3);
-		listaSimpEnc.addNoInicioLista(2);
-		listaSimpEnc.addNoInicioLista(1);
-
+		char r = 'S';
+		do {
+			System.out.println("Digite um valor inteiro:");
+			int valor = input.nextInt();
+			listaSimpEnc.adicionaOrdenado(valor);
+			System.out.println("Deseja inserir novamente um valor? (S/N)");
+			r = input.next().charAt(0);
+		} while (Character.toUpperCase(r) == 'S');
 		Nodo ptAux = listaSimpEnc.getPtLista();
-
-		while(ptAux != null) {
+		while (ptAux != null) {
 			System.out.println(ptAux.getInfo());
-			ptAux = ptAux.getProx();		
+			ptAux = ptAux.getProx();
 		}
-
-		Scanner input = new Scanner(System.in);
 
 		System.out.println("Qual valor desejas buscar? ");
 		int valor = input.nextInt();
@@ -33,26 +32,24 @@ public class Programa {
 
 		if (noAux != null) {
 			System.out.println("Nó encontrado!");
-		}
-		else {
+		} else {
 			System.out.println("Nó não encontrado!");
 		}
 
 		boolean resp = listaSimpEnc.removeNo(1);
 		if (resp == true) {
 			System.out.println("Nó removido com sucesso!");
-		}
-		else {
+		} else {
 			System.out.println("Não foi possível remover o nó!");
 		}
 		resp = listaSimpEnc.removeNo(5);
-		resp = listaSimpEnc.removeNo(3);		
+		resp = listaSimpEnc.removeNo(3);
 
 		ptAux = listaSimpEnc.getPtLista();
 
-		while(ptAux != null) {
+		while (ptAux != null) {
 			System.out.println(ptAux.getInfo());
-			ptAux = ptAux.getProx();		
+			ptAux = ptAux.getProx();
 		}
 
 	}

@@ -2,7 +2,7 @@ package controle;
 
 import dominio.DadosException;
 import dominio.Prova;
-import face.JanelaDeProva;
+import face.JanelaIniciarProva;
 import face.JanelaIniciarProva;
 
 public class CtrlIniciarProva {
@@ -35,7 +35,7 @@ public class CtrlIniciarProva {
 	 * Referência para a janela Prova que permitirá o inicio de uma Prova
 	 * 
 	 */
-	private JanelaDeProva jProva;
+	private JanelaIniciarProva jProva;
 
 	/**
 	 * Referência para o objeto Prova sendo manipulado
@@ -73,7 +73,7 @@ public class CtrlIniciarProva {
 
 	public void iniciarProva() throws ControleException, DadosException {
 		// Crio e abro a janela de Inicio de Prova
-		this.jProva = new JanelaDeProva(this);
+		this.jProva = new JanelaIniciarProva(this);
 		// Fecho a janela Iniciar prova
 		this.jIniciarProva.setVisible(false);
 		// Não há Prova em manipulação

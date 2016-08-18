@@ -1,5 +1,9 @@
 package controle;
 
+import java.util.Collection;
+
+import dominio.DAO;
+import dominio.IDAO;
 import dominio.DadosException;
 import dominio.Prova;
 import face.JanelaAlterarProva;
@@ -37,12 +41,16 @@ public class CtrlAlterarProva {
 	 * Referência para a janela incluir Questão
 	 */
 	private JanelaIncluirQuestaoAlteracao jIncluirQuestao;
-	
-	
+
 	/**
 	 * Referência para o objeto Prova sendo manipulado
 	 */
 	private Prova atual;
+
+	/**
+	 * Referência para o objeto DaoProva
+	 */
+	private IDAO<Prova> dao = (IDAO<Prova>) DAO.getDAO(Prova.class);
 
 	/**
 	 * Atributo que indica qual operação está em curso
@@ -64,20 +72,21 @@ public class CtrlAlterarProva {
 		this.iniciar();
 	}
 
-	public void iniciar() throws ControleException, DadosException {
+	public void iniciar() throws ControleException {
+		// Recupero os objetos Prova do DAO
+		IDAO<Prova> dao = (IDAO<Prova>) DAO.getDAO(Prova.class);
+		Collection<Prova> provas = dao.getListaObjs();
 		// Crio e abro a janela de alteração da prova
-		this.jAlterarProva = new JanelaAlterarProva(this);
+		this.jAlterarProva = new JanelaAlterarProva(this, provas);
 
-		// Não há Prova em manipulação
-		this.atual = null;
-		// Informo que o controlador de caso de uso está disponível
+		// Informo que o controlador de caso de uso está alterando
 		this.setStatus(Status.EmAlteracao);
 	}
+
 	public void incluirQuestao() throws ControleException, DadosException {
 		// Crio e abro a janela de inclusão de questão
 		this.jIncluirQuestao = new JanelaIncluirQuestaoAlteracao(this);
 	}
-
 
 	public void terminar() throws ControleException {
 		if (this.status == Status.Pronta)
@@ -89,17 +98,17 @@ public class CtrlAlterarProva {
 		// Informo que o controlador está encerrado
 		this.setStatus(Status.Pronta);
 	}
-	
+
 	public void terminarQuestao() throws ControleException {
-		//	if (this.status == Status.Pronta)
-			//	return;
-			// Não há Prova em manipulação
-			//this.atual = null;
-			// Fecho a janela
-			this.jIncluirQuestao.setVisible(false);
-			// Informo que o controlador está encerrado
-			//this.setStatus(Status.Pronta);
-		}
+		// if (this.status == Status.Pronta)
+		// return;
+		// Não há Prova em manipulação
+		// this.atual = null;
+		// Fecho a janela
+		this.jIncluirQuestao.setVisible(false);
+		// Informo que o controlador está encerrado
+		// this.setStatus(Status.Pronta);
+	}
 
 	public Status getStatus() {
 		return this.status;

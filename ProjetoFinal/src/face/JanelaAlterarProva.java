@@ -3,6 +3,7 @@ package face;
 import java.awt.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Collection;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -17,11 +18,16 @@ import controle.ControleException;
 import controle.CtrlAlterarProva;
 import controle.CtrlElaborarProva;
 import dominio.DadosException;
+import dominio.Prova;
 
 public class JanelaAlterarProva extends JFrame {
-
+	//
+	// CONSTANTES
+	//
+	public final static Object SELECAO_NULA = "Selecione...";
 	private JPanel contentPane;
 	private CtrlAlterarProva ctrl;
+	JComboBox cbProvas;
 
 	/**
 	 * Launch the application.
@@ -30,8 +36,8 @@ public class JanelaAlterarProva extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public JanelaAlterarProva(CtrlAlterarProva c) {
-		
+	public JanelaAlterarProva(CtrlAlterarProva c, Collection<Prova> provas) {
+
 		this.ctrl = c;
 		setTitle("Alterar Prova");
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
@@ -45,16 +51,25 @@ public class JanelaAlterarProva extends JFrame {
 		lblSelecioneAProva.setBounds(10, 11, 141, 14);
 		contentPane.add(lblSelecioneAProva);
 
-		JComboBox comboBox = new JComboBox();
-		comboBox.setBounds(120, 8, 156, 20);
-		contentPane.add(comboBox);
+		cbProvas = new JComboBox();
+		cbProvas.setBounds(120, 8, 168, 20);
+		contentPane.add(cbProvas);
 
+		//
+		// Adicionando os provas na combobox
+		//
+		cbProvas.addItem(SELECAO_NULA);
+		for (Object o : provas)
+			if (o != null)
+				cbProvas.addItem(o);
+		
+	
 		List list = new List();
-		list.setBounds(228, 40, 48, 214);
+		list.setBounds(291, 45, 48, 253);
 		contentPane.add(list);
 
 		JTextArea textArea = new JTextArea();
-		textArea.setBounds(282, 40, 152, 214);
+		textArea.setBounds(367, 43, 257, 255);
 		contentPane.add(textArea);
 
 		JButton btnOk = new JButton("OK");
@@ -74,11 +89,11 @@ public class JanelaAlterarProva extends JFrame {
 
 			}
 		});
-		btnIncluirQuesto.setBounds(10, 110, 122, 23);
+		btnIncluirQuesto.setBounds(10, 110, 141, 23);
 		contentPane.add(btnIncluirQuesto);
 
 		JButton btnExcluirQuesto = new JButton("Excluir Quest\u00E3o");
-		btnExcluirQuesto.setBounds(10, 165, 122, 23);
+		btnExcluirQuesto.setBounds(10, 165, 141, 23);
 		contentPane.add(btnExcluirQuesto);
 
 		JButton btnCancelar = new JButton("Cancelar");

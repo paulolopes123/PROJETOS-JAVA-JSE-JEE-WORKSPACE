@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1466184612683
+# List of external plug-in models previously loaded. Timestamp: 1466696960266
 file:/D:/BACKUP_FACUL_1/PROGRAMAÇÃO ORIENTADO A OBJETOS(Java)/SOFTWARE/Eclipse JEE Mars(x64)/plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar
 file:/D:/BACKUP_FACUL_1/PROGRAMAÇÃO ORIENTADO A OBJETOS(Java)/SOFTWARE/Eclipse JEE Mars(x64)/plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar
 file:/D:/BACKUP_FACUL_1/PROGRAMAÇÃO ORIENTADO A OBJETOS(Java)/SOFTWARE/Eclipse JEE Mars(x64)/plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar
