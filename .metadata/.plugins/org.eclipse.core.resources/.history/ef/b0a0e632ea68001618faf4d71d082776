@@ -1,0 +1,109 @@
+package face;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import controle.dao.ClienteJpaDAO;
+import dominio.Cliente;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Formulario extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField jTextFieldID;
+	private JTextField jTextFieldCpf;
+	private JTextField jTextFieldNome;
+	private JTextField jTextFieldRg;
+
+	/**
+	 * Launch the application.
+	 */
+
+	/**
+	 * Create the frame.
+	 */
+	public Formulario() {
+		setTitle("Formul\u00E1rio");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		JButton btnSalvar = new JButton("Salvar");
+		btnSalvar.addActionListener(new ActionListener() {
+			private void ActionPerformed(ActionEvent e) {
+				Cliente cliente = new Cliente();
+				cliente.setCpf(jTextFieldCpf.getText());
+				cliente.setId(Integer.parseInt(jTextFieldID.getText()));
+				cliente.setNome(jTextFieldNome.getText());
+				cliente.setRg(jTextFieldRg.getText());
+				ClienteJpaDAO.getInstance().merge(cliente);
+				clearFields();
+				JOptionPane.showMessageDialog("Salvo com sucesso !");
+			}
+		});
+		btnSalvar.setBounds(21, 204, 89, 23);
+		contentPane.add(btnSalvar);
+
+		JButton btnRemover = new JButton("Remover");
+		btnRemover.setBounds(130, 204, 89, 23);
+		contentPane.add(btnRemover);
+
+		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setBounds(232, 204, 89, 23);
+		contentPane.add(btnBuscar);
+
+		JLabel lblId = new JLabel("ID");
+		lblId.setBounds(33, 26, 46, 14);
+		contentPane.add(lblId);
+
+		jTextFieldID = new JTextField();
+		jTextFieldID.setBounds(33, 51, 158, 20);
+		contentPane.add(jTextFieldID);
+		jTextFieldID.setColumns(10);
+
+		JLabel lblCpf = new JLabel("CPF");
+		lblCpf.setBounds(33, 108, 46, 14);
+		contentPane.add(lblCpf);
+
+		jTextFieldCpf = new JTextField();
+		jTextFieldCpf.setBounds(33, 133, 158, 20);
+		contentPane.add(jTextFieldCpf);
+		jTextFieldCpf.setColumns(10);
+
+		JLabel lblNome = new JLabel("Nome");
+		lblNome.setBounds(247, 26, 46, 14);
+		contentPane.add(lblNome);
+
+		jTextFieldNome = new JTextField();
+		jTextFieldNome.setBounds(247, 51, 158, 20);
+		contentPane.add(jTextFieldNome);
+		jTextFieldNome.setColumns(10);
+
+		JLabel lblRg = new JLabel("RG");
+		lblRg.setBounds(247, 108, 46, 14);
+		contentPane.add(lblRg);
+
+		jTextFieldRg = new JTextField();
+		jTextFieldRg.setBounds(250, 133, 155, 20);
+		contentPane.add(jTextFieldRg);
+		jTextFieldRg.setColumns(10);
+
+		JButton btnSair = new JButton("Sair");
+		btnSair.setBounds(335, 204, 89, 23);
+		contentPane.add(btnSair);
+		this.setVisible(true);
+	}
+}

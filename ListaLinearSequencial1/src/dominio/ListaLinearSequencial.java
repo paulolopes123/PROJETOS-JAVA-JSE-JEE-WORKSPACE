@@ -77,7 +77,7 @@ public class ListaLinearSequencial {
 				if (valor < lista[i]) {
 					aux = lista[i];
 					lista[i] = valor;
-					valor = aux;
+					lista[i + 1] = aux;
 				}
 			}
 			return true;
@@ -113,5 +113,42 @@ public class ListaLinearSequencial {
 		for (int i = 0; i <= lastPos; i++) {
 			System.out.println(lista[i]);
 		}
+	}
+
+	// tamanho da lista
+	public int getTamanho(int i) {
+		return lastPos + 1;
+
+	}
+
+	// retorna o elemento em uma posição especifica
+	public int retornaPos(int pos) {
+		if (listaTahVazia()) {
+			System.out.println("Lista Vazia");
+			return 0;
+		}
+
+		if (pos < 0 || pos > lastPos) {
+			System.out.println("Indice invalido");
+			return 0;
+		}
+
+		return lista[pos];
+	}
+
+	// insere um elemento em determinada posição
+	public boolean inserePos(int elemento, int pos) {
+		if (listaTahVazia()) {
+			System.out.println("Lista vazia");
+			return false;
+		}
+		if (pos < 0 || pos > lastPos) {
+			System.out.println("erro indice invalido");
+			return false;
+		}
+
+		lastPos++;
+		lista[pos] = elemento;
+		return true;
 	}
 }

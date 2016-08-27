@@ -1,0 +1,9 @@
+package controle.dao;
+public class ClienteJpaDAO {
+	private static ClienteJpaDAO instance;
+protected EntityManager entityManager;
+
+public static ClienteJpaDAO getInstance(){
+if (instance == null){
+instance = new ClienteJpaDAO();
+}

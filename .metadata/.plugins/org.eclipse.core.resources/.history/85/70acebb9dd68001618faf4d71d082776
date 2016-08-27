@@ -1,0 +1,15 @@
+package controle.dao;
+
+import javax.persistence.EntityManager;
+
+public class ClienteJpaDAO {
+	private static ClienteJpaDAO instance;
+	protected EntityManager entityManager;
+
+	public static ClienteJpaDAO getInstance() {
+		if (instance == null) {
+			instance = new ClienteJpaDAO();
+		}
+
+	}
+}

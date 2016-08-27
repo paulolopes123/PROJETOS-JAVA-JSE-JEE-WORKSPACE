@@ -34,6 +34,7 @@ public class BubleSort {
 			for (int i = 0; i <= lista.length; i++) {
 				System.out.println("Digite o " + (i + 1) + " Elemento");
 				lista[i] = l.nextInt();
+				pos++;
 			}
 
 		}
