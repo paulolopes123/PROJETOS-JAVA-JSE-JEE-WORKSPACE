@@ -1,0 +1,31 @@
+package exercicio1;
+
+public class TesteExercicio1 {
+
+	public static void main(String[] args) {
+
+		Funcionario f1 = new Funcionario();
+		f1.setNome("Paulo");
+		Funcionario f2 = new Funcionario();
+		f2.setNome("Lopes");
+		Funcionario f3 = new Funcionario();
+		f3.setNome("Souza");
+
+		Empresa empresa = new Empresa();
+		empresa.adicionaFuncionario(f1);
+		empresa.adicionaFuncionario(f2);
+		empresa.adicionaFuncionario(f3);
+
+		Funcionario f = null;
+
+		f = empresa.procuraFuncionario("Paulo");
+		if (f != null) {
+
+			System.out.println("Funcionario encontrado " + f);
+		} else {
+			System.out.println("Funcionario nao encontrado ");
+		}
+
+	}
+
+}

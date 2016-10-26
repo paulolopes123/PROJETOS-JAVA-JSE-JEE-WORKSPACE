@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;exercicio1.FuncionarioTeste&apos; to &apos;TesteExercicio1&apos;&#x0D;&#x0A;- Original project: &apos;SoftBlueExerciciosWebinar2&apos;&#x0D;&#x0A;- Original element: &apos;exercicio1.FuncionarioTeste&apos;&#x0D;&#x0A;- Renamed element: &apos;exercicio1.TesteExercicio1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FuncionarioTeste&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exercicio1{FuncionarioTeste.java[FuncionarioTeste" matchStrategy="1" name="TesteExercicio1" qualified="false" references="true" similarDeclarations="false" stamp="1472566980264" textual="false" version="1.0"/>
+</session>

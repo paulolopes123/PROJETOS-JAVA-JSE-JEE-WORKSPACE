@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+.form {
+	margin-left:450px;
+	width:500px;
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+#bt {
+	margin-left: 660px;
+}

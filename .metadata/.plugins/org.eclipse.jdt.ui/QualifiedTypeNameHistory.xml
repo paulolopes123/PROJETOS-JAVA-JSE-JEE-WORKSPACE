@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="dominio.DominioException"/>
-<fullyQualifiedTypeName name="face.JanelaIniciarProva"/>
-<fullyQualifiedTypeName name="face.JanelaProva"/>
-<fullyQualifiedTypeName name="controle.CtrlIniciarProva"/>
-<fullyQualifiedTypeName name="dominio.Professor"/>
-<fullyQualifiedTypeName name="dominio.Aluno"/>
-<fullyQualifiedTypeName name="controle.CtrlPrograma"/>
-<fullyQualifiedTypeName name="face.JanelaProfessor"/>
-<fullyQualifiedTypeName name="face.JanelaAluno"/>
-<fullyQualifiedTypeName name="face.JanelaElaborarProva"/>
-<fullyQualifiedTypeName name="controle.CtrlLogin"/>
-<fullyQualifiedTypeName name="controle.CtrlElaborarProva"/>
 <fullyQualifiedTypeName name="java.sql.Time"/>
 <fullyQualifiedTypeName name="controle.CtrlAlterarProva"/>
 <fullyQualifiedTypeName name="face.JanelaIncluirQuestaoAlteracao"/>
@@ -26,7 +14,6 @@
 <fullyQualifiedTypeName name="dominio.NoArvore"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="controle.ControleException"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="dominio.Lista"/>
 <fullyQualifiedTypeName name="dominio.Prova"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
@@ -43,7 +30,6 @@
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
 <fullyQualifiedTypeName name="dominio.Cliente"/>
@@ -52,4 +38,26 @@
 <fullyQualifiedTypeName name="face.JanelaFormulario"/>
 <fullyQualifiedTypeName name="controle.dao.CtrlFormulario"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="exercicio1.Funcionario"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="exercicio2.Gerente"/>
+<fullyQualifiedTypeName name="exercicio2.Analista"/>
+<fullyQualifiedTypeName name="exericicio17.ListaDivisores"/>
+<fullyQualifiedTypeName name="dominio.SelectionSort"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="Exercicio4Desafio.GeradorNumericoRandomico"/>
+<fullyQualifiedTypeName name="Exercicio4Desafio.GeradorNumerico"/>
+<fullyQualifiedTypeName name="Exercicio4Desafio.Numeros"/>
+<fullyQualifiedTypeName name="Exercicio4Desafio.GeradorNumericoSequencial"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.el.ValueExpression"/>
+<fullyQualifiedTypeName name="javax.el.ELContext"/>
 </qualifiedTypeNameHistroy>

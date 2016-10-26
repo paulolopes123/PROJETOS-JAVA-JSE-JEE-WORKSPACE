@@ -31,7 +31,7 @@ public class BubleSort {
 	public void Adiciona() {
 
 		if (!isCheia()) {
-			for (int i = 0; i <= lista.length; i++) {
+			for (int i = 0; i < lista.length; i++) {
 				System.out.println("Digite o " + (i + 1) + " Elemento");
 				lista[i] = l.nextInt();
 				pos++;

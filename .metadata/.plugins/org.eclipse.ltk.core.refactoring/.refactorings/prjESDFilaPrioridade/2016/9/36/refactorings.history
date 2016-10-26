@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;filaPrioridades&apos; to &apos;ESD-ListaSequencial01/src/exercicio04&apos;&#x0D;&#x0A;- Original project: &apos;prjESDFilaPrioridade&apos;&#x0D;&#x0A;- Destination element: &apos;ESD-ListaSequencial01/src/exercicio04&apos;&#x0D;&#x0A;- Original element: &apos;prjESDFilaPrioridade/src/filaPrioridades&apos;" description="Copy package" destination="=ESD-ListaSequencial01/src&lt;exercicio04" element1="/src&lt;filaPrioridades" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1472783134054" version="1.0"/>
+</session>

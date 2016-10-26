@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="ChooseWorkspaceDialogSettings">
-		<item value="185" key="DIALOG_Y_ORIGIN"/>
-		<item value="381" key="DIALOG_X_ORIGIN"/>
-	</section>
 	<section name="ExternalProjectImportWizard">
-		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value=""/>
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\TDE02_ListaEncadeadaAluno"/>
@@ -28,6 +24,12 @@
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\BatalhaCarta"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\PROJETOS\projetoAVL.zip"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\PROJETOS\listaEn.zip"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\PROJETOS\arvoreBinaria.zip"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMAÇÃO_DE_APLICAÇÕES_WEBJEE\PROJETOS(JEE)\ProjetoAgendaJSF_2-Prime.zip"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMAÇÃO_DE_APLICAÇÕES_WEBJEE\PROJETOS(JEE)\ProjetoAgendaJSF_2.zip"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\PROJETOS\prjESD_Fila_prioridade.zip"/>
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\PROJETOS\Teste Pratico P2 - Bernard Johnson.zip"/>
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\PROJETOS\TestePratico - paulo roberto lopes de souza - 5404088.zip"/>
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\PROJETO FINAL(ABORD.SISTE-Java)\Projetos\ProjetoFinal.zip"/>
@@ -41,5 +43,14 @@
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\ESTRUTURA_DE_DADOS(Java)\EXEMPLOS_PROJETOS\listaSimpEncaCircu.zip"/>
 			<item value=""/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+		<item value="381" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

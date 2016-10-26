@@ -3,7 +3,7 @@ package dominio;
 public class RecursaoFibonacci {
 
 	public int fibo(int i) {
-		if (i < 2) {
+		if (i <= 2) {
 
 			return i;
 		} else {

@@ -72,4 +72,12 @@ public class Lista {
 
 	}
 
+	public void imprimir() {
+		Nodo aux = ptLista;
+		while (aux != null) {
+			System.out.println(aux.getInfo());
+		}
+
+	}
+
 }

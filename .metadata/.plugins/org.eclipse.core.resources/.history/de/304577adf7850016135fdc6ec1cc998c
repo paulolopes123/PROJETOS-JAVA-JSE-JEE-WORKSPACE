@@ -1,0 +1,21 @@
+package exercicio1;
+
+public class TesteExercicio1 {
+
+	public static void main(String[] args) {
+
+		Funcionario f1 = new Funcionario();
+		f1.setNome("Paulo");
+		Funcionario f2 = new Funcionario();
+		f1.setNome("Lopes");
+		Funcionario f3 = new Funcionario();
+		f1.setNome("Souza");
+
+		Empresa empresa = new Empresa();
+		empresa.adicionaFuncionario(f1);
+		empresa.adicionaFuncionario(f2);
+		empresa.adicionaFuncionario(f3);
+
+	}
+
+}

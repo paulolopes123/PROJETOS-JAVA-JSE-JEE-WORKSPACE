@@ -65,45 +65,39 @@ public class ListaLinearSequencial {
 			return -1;// não achou
 		}
 	}
-
-	// inserir em uma lista ordenada (crescente/decrescente)
-	public boolean insereNaListaOrdenada(int valor, char ordem) {
-		int aux;
-		if (listaTahCheia()) {
-			return false;
-		} else {
-			// TO DO
-			for (int i = 0; i <= lastPos; i++) {
-				if (valor < lista[i]) {
-					aux = lista[i];
-					lista[i] = valor;
-					lista[i + 1] = aux;
-				}
-			}
-			return true;
-		}
-
-	}
+	/*
+	 * // inserir em uma lista ordenada (crescente/decrescente) public boolean
+	 * insereNaListaOrdenada(int valor) { int aux; if (listaTahCheia()) { return
+	 * false; } else { // TO DO
+	 * 
+	 * for (int i = 0; i < lastPos; i++) { if (lista[valor] < lista[i]) { aux =
+	 * lista[valor]; lista[valor] = lista[i]; lista[i] = aux; } lista[++lastPos]
+	 * = valor;
+	 * 
+	 * }
+	 * 
+	 * return true; }
+	 * 
+	 * }
+	 */
 
 	// ordenar a lista (crescente/decrescente)
 	// Sugiro implementar o BUBBLE SORT
 	// ----- TO DO AT HOME
-	public boolean ordenaLista() {
+	public void ordenaLista() {
+		boolean troca = true;
 		int aux;
-		if (listaTahVazia()) {
-
-			return false;
-		} else {
-			for (int i = 0; i <= lastPos; i++) {
-				if (lista[i] < lista[i + 1]) {
-					aux = lista[i + 1];
-					lista[i + 1] = lista[i];
-					lista[i] = aux;
-
+		while (troca) {
+			troca = false;
+			for (int j = 0; j < lastPos; j++) {
+				if (lista[j] < lista[j + 1]) {
+					aux = lista[j];
+					lista[j] = lista[j + 1];
+					lista[j + 1] = aux;
+					troca = true;
 				}
 
 			}
-			return true;
 		}
 	}
 
@@ -116,7 +110,7 @@ public class ListaLinearSequencial {
 	}
 
 	// tamanho da lista
-	public int getTamanho(int i) {
+	public int getTamanho() {
 		return lastPos + 1;
 
 	}
@@ -150,5 +144,11 @@ public class ListaLinearSequencial {
 		lastPos++;
 		lista[pos] = elemento;
 		return true;
+	}
+
+	// retorna o elemento da ultima posicao
+	public int ultimoElemento() {
+		return lista[lastPos];
+
 	}
 }

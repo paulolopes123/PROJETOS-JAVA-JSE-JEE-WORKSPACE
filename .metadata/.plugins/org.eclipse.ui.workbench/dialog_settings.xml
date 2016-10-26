@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="374" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="-1" key="dialogHeight"/>
 		<item value="-1" key="dialogWidth"/>
@@ -20,13 +24,14 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.equinox.p2.category"/>
 			<item value="org.eclipse.jdt.ui.Java"/>
 		</list>
 	</section>
@@ -34,6 +39,11 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\PAULOLOPES\Desktop\ESD-ListaSequencial02.zip"/>
+			<item value="C:\Users\PAULOLOPES\Desktop\ESD-ListaSequencial01.zip"/>
+			<item value="C:\Users\PAULOLOPES\Desktop\OrdenacaoSelectionSort.zip"/>
+			<item value="C:\Users\PAULOLOPES\Desktop\SelectionSort.zip"/>
+			<item value="C:\Users\PAULOLOPES\Desktop\ProjetoFinal.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\ProjetoAgenda_JSF2_Prime_Ajax_copia.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\prjMVC.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\TrabalhoFinal.zip"/>
@@ -41,7 +51,6 @@
 			<item value="C:\Users\PAULOLOPES\Desktop\TrabalhoArvoreBinariaBusca.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\ArvoreBinaria.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\ArvoreBinaria2.zip"/>
-			<item value="C:\Users\PAULOLOPES\Desktop\ProjetoFinal.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\ListaSimplEncadeCicul.zip"/>
 			<item value="C:\Users\PAULOLOPES\Desktop\ListaDuplaEncade.zip"/>
 		</list>

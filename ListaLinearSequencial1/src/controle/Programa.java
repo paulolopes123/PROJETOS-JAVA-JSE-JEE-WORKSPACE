@@ -20,6 +20,7 @@ public class Programa {
 		boolean confirma;
 
 		//----------------- Inserção ------------------------
+		
 		do{
 			System.out.println("Entre com um inteiro para inserir na Lista Linear: ");
 			valor = entrada.nextInt();
@@ -35,6 +36,7 @@ public class Programa {
 		}while(Character.toUpperCase(resp)== 'S');
 		
 		//-------------- Remoção -----------------------------
+		/*
 		int itemRemovido = 0;
 		do{
 			System.out.println("Qual elemento deseja remover da Lista?");
@@ -49,9 +51,15 @@ public class Programa {
 			System.out.println("Deseja remover outro elemento (S/N)?");
 			resp = entrada.next().charAt(0);
 		}while(Character.toUpperCase(resp)== 'S');
-
+*/
 		//imprimindo a lista linear sequencial resultante
+		//listaLinearSeq.ordenaLista();
+		//listaLinearSeq.imprimeListaLinearSeq();
+		listaLinearSeq.inserePos(12, 2);
 		listaLinearSeq.imprimeListaLinearSeq();
+		System.out.println(listaLinearSeq.getTamanho());
+		System.out.println(listaLinearSeq.retornaPos(3));
+		
 	}
 
 }

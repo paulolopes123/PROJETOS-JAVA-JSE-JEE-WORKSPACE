@@ -1,0 +1,35 @@
+package controle;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+@RequestScoped
+@ManagedBean
+public class Hello {
+
+	private String texto;
+	private String text;
+
+	public String getMessage() {
+		return "Editor Do Primefaces!!";
+	}
+
+	public String getTexto() {
+		return texto;
+	}
+
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+
+	public void exibirTexto() {
+
+		this.text = this.texto;
+
+	}
+
+	public String getText() {
+		return text;
+	}
+
+}

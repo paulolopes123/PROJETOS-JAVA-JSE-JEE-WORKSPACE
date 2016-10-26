@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.prime.com.tr/ui">
+<h:head>
+	<title>Editor Do Primefaces!!!</title>
+	<link rel="StyleSheet" href="css/estilo.css" />
+</h:head>
+<h:body>
+	<h1>#{hello.message}</h1>
+	<h:form class="form">
+
+		<p:editor value="#{hello.texto}" widgetVar="editorWidget"/>
+
+
+
+
+
+		<h:panelGrid columns="2">
+			<p:commandButton id="bt" value="Enviar" action="#{hello.exibirTexto}" />
+			<p:commandButton value="Clear" type="button"
+				onclick="PF('editorWidget').clear();" />
+		</h:panelGrid>
+	</h:form>
+
+</h:body>
+
+
+
+</html>

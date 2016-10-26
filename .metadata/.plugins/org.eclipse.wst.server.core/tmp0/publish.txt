@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Sun Aug 07 19:53:49 BRT 2016
-org.eclipse.jst.jee.server\:SistemaFinanceiro=D\:\\BACKUP_FACUL_1\\PROGRAMA\u00C7\u00C3O DE APLICA\u00C7\u00D5ES WEB(JEE)\\SOFTWARE\\tomcat-8.0.21\\wtpwebapps\\SistemaFinanceiro
