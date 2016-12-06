@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;controle.util&apos; to &apos;ProjetoFinal2/src&apos;&#x0D;&#x0A;- Original project: &apos;ProjetoAgenda_JSF2_Prime&apos;&#x0D;&#x0A;- Destination element: &apos;ProjetoFinal2/src&apos;&#x0D;&#x0A;- Original element: &apos;ProjetoAgenda_JSF2_Prime/src/controle.util&apos;" description="Copy package" destination="=ProjetoFinal2/src" element1="/src&lt;controle.util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1480348493622" version="1.0"/>
+</session>

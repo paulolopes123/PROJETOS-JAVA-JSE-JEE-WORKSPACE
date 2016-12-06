@@ -5,7 +5,7 @@ import java.util.List;
 public class Numeros {
 	
 	public static void main(String[] args) {
-	List<Integer> numeros = new ArrayList<Integer>();
+	List<Integer> numeros = new ArrayList<>();
 		numeros.add(8);
 		numeros.add(3);
 		numeros.add(1);

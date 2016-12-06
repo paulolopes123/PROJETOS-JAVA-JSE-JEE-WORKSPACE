@@ -1,0 +1,51 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/Layout.xhtml">
+
+	<ui:define name="content">
+		<h1 class="aw-page-title">Orçamento</h1>
+
+		<h:form id="frm">
+			<!-- define um grid com uma qtd de colunas x atraves do atributo columns-->
+			<p:panelGrid columns="4" style="margin-bottom:20px;">
+				<p:outputLabel value="Cliente" />
+				<p:inputText />
+
+				<p:outputLabel value="CPF" />
+				<p:inputMask mask="999.999.999-99" />
+
+				<p:outputLabel value="Telefone" />
+				<p:inputText />
+
+				<p:outputLabel value="Condição de Pagto" />
+				<p:selectOneMenu>
+					<f:selectItem itemLabel="Selecione" />
+					<f:selectItem itemLabel="A Vista" />
+					<f:selectItem itemLabel="30 Dias" />
+					<f:selectItem itemLabel="30 + 60 Dias" />
+
+				</p:selectOneMenu>
+
+				<p:outputLabel value="Dias Entrega" />
+				<p:inputText />
+
+				<p:outputLabel value="Validade" />
+				<p:calendar pattern="dd/MMM/yyyy" />
+			</p:panelGrid>
+
+
+			<!--Exibe uma Barra de ferramenta-->
+			<p:toolbar>
+				<!--deve ser usado junto com a barra de ferramenta toolbar-->
+				<p:toolbarGroup>
+
+					<p:commandButton value="Salvar" />
+				</p:toolbarGroup>
+			</p:toolbar>
+		</h:form>
+	</ui:define>
+
+</ui:composition>

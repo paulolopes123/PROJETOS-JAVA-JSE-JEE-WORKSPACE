@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Menu.xhtml&apos; to &apos;xhtml&apos;&#x0D;&#x0A;- Original project: &apos;responsive-primefaces&apos;&#x0D;&#x0A;- Destination element: &apos;xhtml&apos;&#x0D;&#x0A;- Original element: &apos;Menu.xhtml&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/templates/Menu.xhtml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480625601861" target="/ProjetoFinal2/WebContent/xhtml" units="0" version="1.0"/>
+</session>

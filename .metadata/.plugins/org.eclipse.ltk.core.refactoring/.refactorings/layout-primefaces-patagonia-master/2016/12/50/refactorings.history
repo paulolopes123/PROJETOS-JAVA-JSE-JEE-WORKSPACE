@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Inicio.xhtml&apos; to &apos;Inicio.xhtml&apos;&#x0D;&#x0A;- Original project: &apos;layout-primefaces-patagonia-master&apos;&#x0D;&#x0A;- Destination element: &apos;Inicio.xhtml&apos;&#x0D;&#x0A;- Original element: &apos;Inicio.xhtml&apos;" description="Copy file" element1="src/main/webapp/Inicio.xhtml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480971807970" target="/layout-primefaces-patagonia-master/src/main/webapp/Inicio.xhtml" units="0" version="1.0"/>
+</session>

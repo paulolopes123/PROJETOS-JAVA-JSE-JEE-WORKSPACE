@@ -2768,3 +2768,606 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:447) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
 	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:350) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
 	... 13 common frames omitted
+2016-10-31 21:31:42,595 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.jar
+2016-10-31 21:31:43,170 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.jar
+2016-10-31 21:31:44,048 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.pom
+2016-10-31 21:31:44,252 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.pom
+2016-10-31 21:31:45,918 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2016-10-31 21:31:46,107 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2016-10-31 21:31:47,334 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.pom
+2016-10-31 21:31:47,519 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.pom
+2016-10-31 21:31:47,714 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.5/plexus-compiler-2.5.pom
+2016-10-31 21:31:47,902 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.5/plexus-compiler-2.5.pom
+2016-10-31 21:31:48,386 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.pom
+2016-10-31 21:31:48,616 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.pom
+2016-10-31 21:31:48,835 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.pom
+2016-10-31 21:31:49,024 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.pom
+2016-10-31 21:31:49,215 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.5/plexus-compilers-2.5.pom
+2016-10-31 21:31:49,406 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.5/plexus-compilers-2.5.pom
+2016-10-31 21:31:50,099 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2016-10-31 21:31:51,063 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2016-10-31 21:31:51,271 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+2016-10-31 21:31:51,517 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+2016-10-31 21:31:51,695 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2016-10-31 21:31:51,937 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2016-10-31 21:31:52,112 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.jar
+2016-10-31 21:31:52,345 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.jar
+2016-10-31 21:31:52,529 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.jar
+2016-10-31 21:31:52,719 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.jar
+2016-10-31 21:31:52,902 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.jar
+2016-10-31 21:31:53,115 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.jar
+2016-10-31 21:31:54,516 [Worker-42] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:layout-primefaces-patagonia:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\layout-primefaces-patagonia\pom.xml.
+2016-10-31 21:31:55,061 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/primefaces/6.0/primefaces-6.0.pom
+2016-10-31 21:31:55,256 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/primefaces/primefaces/6.0/primefaces-6.0.pom
+2016-10-31 21:31:55,632 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/primefaces/primefaces/6.0/primefaces-6.0.pom
+2016-10-31 21:31:56,253 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/bootstrap/1.0.10/bootstrap-1.0.10.pom
+2016-10-31 21:31:56,511 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/bootstrap/1.0.10/bootstrap-1.0.10.pom
+2016-10-31 21:31:56,773 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/themes-project/1.0.10/themes-project-1.0.10.pom
+2016-10-31 21:31:57,031 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/themes-project/1.0.10/themes-project-1.0.10.pom
+2016-10-31 21:31:57,296 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.2.9/javax.faces-2.2.9.pom
+2016-10-31 21:31:57,484 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.9/javax.faces-2.2.9.pom
+2016-10-31 21:31:57,687 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.9/javax.faces-2.2.9.pom
+2016-10-31 21:31:58,187 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2016-10-31 21:31:58,371 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2016-10-31 21:31:58,578 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2016-10-31 21:31:59,152 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/primefaces/6.0/primefaces-6.0.jar
+2016-10-31 21:31:59,697 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/bootstrap/1.0.10/bootstrap-1.0.10.jar
+2016-10-31 21:32:00,532 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/bootstrap/1.0.10/bootstrap-1.0.10.jar
+2016-10-31 21:32:00,805 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.2.9/javax.faces-2.2.9.jar
+2016-10-31 21:32:01,297 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2016-10-31 21:32:01,688 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/primefaces/primefaces/6.0/primefaces-6.0.jar
+2016-10-31 21:32:11,004 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/primefaces/primefaces/6.0/primefaces-6.0.jar
+2016-10-31 21:32:11,214 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.9/javax.faces-2.2.9.jar
+2016-10-31 21:32:16,826 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.9/javax.faces-2.2.9.jar
+2016-10-31 21:32:17,033 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2016-10-31 21:32:17,357 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2016-10-31 21:32:18,007 [Worker-42] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:responsive-primefaces:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\pom.xml.
+2016-10-31 21:32:18,508 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/all-themes/1.0.10/all-themes-1.0.10.pom
+2016-10-31 21:32:19,013 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/all-themes/1.0.10/all-themes-1.0.10.pom
+2016-10-31 21:32:19,308 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.pom
+2016-10-31 21:32:19,498 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.pom
+2016-10-31 21:32:19,701 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.pom
+2016-10-31 21:32:20,206 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-validator-parent/5.2.3.Final/hibernate-validator-parent-5.2.3.Final.pom
+2016-10-31 21:32:20,396 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.2.3.Final/hibernate-validator-parent-5.2.3.Final.pom
+2016-10-31 21:32:20,639 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.2.3.Final/hibernate-validator-parent-5.2.3.Final.pom
+2016-10-31 21:32:21,422 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.pom
+2016-10-31 21:32:21,606 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.pom
+2016-10-31 21:32:21,802 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.pom
+2016-10-31 21:32:22,427 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/all-themes/1.0.10/all-themes-1.0.10.jar
+2016-10-31 21:32:34,460 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/all-themes/1.0.10/all-themes-1.0.10.jar
+2016-10-31 21:32:34,709 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.jar
+2016-10-31 21:32:35,269 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+2016-10-31 21:32:35,623 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.jar
+2016-10-31 21:32:37,027 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.jar
+2016-10-31 21:32:37,234 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+2016-10-31 21:32:37,505 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+2016-10-31 21:32:41,098 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/main/java
+2016-10-31 21:32:41,099 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/test/java
+2016-10-31 21:32:42,275 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-10-31 21:32:42,284 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-10-31 21:32:42,532 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /responsive-primefaces/src/main/java
+2016-10-31 21:32:42,533 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /responsive-primefaces/src/main/resources
+2016-10-31 21:32:42,539 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /responsive-primefaces/src/test/java
+2016-10-31 21:32:43,162 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-10-31 21:32:43,170 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2016-10-31 21:32:43,527 [Worker-42] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 63 sec
+2016-10-31 21:32:46,307 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:32:46,307 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\layout-primefaces-patagonia\src\main\resources
+2016-10-31 21:32:46,310 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:32:46,311 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\layout-primefaces-patagonia\src\test\resources
+2016-10-31 21:32:47,750 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:32:47,758 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-31 21:32:47,775 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:32:47,775 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-10-31 21:33:05,744 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:33:05,746 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 21:33:05,749 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:33:05,749 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-10-31 21:33:25,282 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:33:25,291 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 21:33:25,293 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:33:25,295 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-10-31 21:45:22,207 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces
+2016-10-31 21:45:22,208 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-10-31 21:45:28,998 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:45:29,002 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-31 21:45:29,010 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:45:29,011 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-10-31 21:45:29,011 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of responsive-primefaces
+2016-10-31 21:45:29,013 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for responsive-primefaces
+2016-10-31 21:45:29,111 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:46:39,291 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-10-31 21:47:52,743 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-10-31 21:47:53,695 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:layout-primefaces-patagonia:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\layout-primefaces-patagonia\pom.xml.
+2016-10-31 21:47:53,819 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:responsive-primefaces:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\pom.xml.
+2016-10-31 21:47:55,901 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/main/java
+2016-10-31 21:47:55,901 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/test/java
+2016-10-31 21:47:56,100 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /responsive-primefaces/src/main/java
+2016-10-31 21:47:56,101 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /responsive-primefaces/src/main/resources
+2016-10-31 21:47:56,101 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /responsive-primefaces/src/test/java
+2016-10-31 21:47:56,798 [Worker-49] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia
+2016-10-31 21:47:56,916 [Worker-49] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for responsive-primefaces
+2016-10-31 21:47:56,941 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2016-10-31 21:47:57,554 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:47:57,554 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\layout-primefaces-patagonia\src\main\resources
+2016-10-31 21:47:57,557 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:47:57,558 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\layout-primefaces-patagonia\src\test\resources
+2016-10-31 21:47:57,558 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of layout-primefaces-patagonia
+2016-10-31 21:47:57,558 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for layout-primefaces-patagonia
+2016-10-31 21:47:57,571 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:47:58,007 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:47:58,008 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-31 21:47:58,025 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 21:47:58,025 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-10-31 21:47:58,025 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of responsive-primefaces
+2016-10-31 21:47:58,025 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for responsive-primefaces
+2016-10-31 21:47:58,031 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 20:00:03,011 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 20:00:03,077 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-02 20:00:03,098 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 20:00:03,098 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-03 13:06:51,392 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-03 13:06:51,430 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-03 13:06:51,441 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-03 13:06:51,441 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-03 19:58:52,833 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-03 19:58:52,841 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-03 19:58:52,849 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-03 19:58:52,849 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-07 11:23:31,853 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-07 11:23:31,894 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-07 11:23:31,904 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-07 11:23:31,904 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-09 13:50:42,805 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-09 13:50:42,851 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-09 13:50:42,858 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-09 13:50:42,858 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-10 00:51:49,420 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-10 00:51:49,485 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-10 00:51:49,515 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-10 00:51:49,516 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-10 10:17:05,120 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-10 10:17:05,169 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-10 10:17:05,178 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-10 10:17:05,179 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-12 11:29:37,688 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-12 11:29:37,715 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-12 11:29:37,734 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-12 11:29:37,734 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-17 08:56:25,465 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 08:56:25,623 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-17 08:56:25,698 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 08:56:25,698 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-17 14:49:25,903 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 14:49:25,920 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-17 14:49:25,935 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 14:49:25,935 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-17 16:46:27,642 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 16:46:27,650 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-17 16:46:27,656 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 16:46:27,657 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-17 16:53:46,443 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 16:53:46,449 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-11-17 16:53:46,451 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 16:53:46,452 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-17 21:54:49,422 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 21:54:49,438 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-17 21:54:49,448 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-17 21:54:49,449 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-19 21:36:12,592 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-19 21:36:12,630 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-19 21:36:12,638 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-19 21:36:12,639 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-20 11:32:40,523 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-20 11:32:40,535 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-20 11:32:40,543 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-20 11:32:40,544 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-20 11:52:28,797 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-20 11:52:28,810 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-20 11:52:28,821 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-20 11:52:28,821 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-20 12:19:52,566 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-20 12:19:52,576 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-20 12:19:52,586 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-20 12:19:52,586 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-21 10:24:26,403 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-21 10:24:26,416 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-21 10:24:26,434 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-21 10:24:26,435 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-22 17:51:17,403 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 17:51:17,415 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-22 17:51:17,423 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 17:51:17,424 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-22 21:20:15,492 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 21:20:15,521 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-22 21:20:15,531 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 21:20:15,532 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-22 22:47:01,103 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 22:47:01,120 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-22 22:47:01,131 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 22:47:01,131 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-22 22:54:52,747 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 22:54:52,761 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-22 22:54:52,772 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-22 22:54:52,772 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-23 09:14:39,343 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-23 09:14:39,971 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-23 09:14:39,978 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-23 09:14:39,978 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-23 16:11:28,578 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-23 16:11:28,591 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-23 16:11:28,605 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-23 16:11:28,606 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-24 21:33:25,200 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-24 21:33:25,243 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-24 21:33:25,251 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-24 21:33:25,252 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-25 10:57:13,024 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-25 10:57:13,056 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-25 10:57:13,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-25 10:57:13,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-25 16:45:11,930 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-25 16:45:11,956 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-25 16:45:11,967 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-25 16:45:11,969 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master\responsive-primefaces\src\test\resources
+2016-11-26 23:17:51,680 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:responsive-primefaces:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\pom.xml.
+2016-11-26 23:17:55,402 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-26 23:17:55,407 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-26 23:17:55,419 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-26 23:17:55,419 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-26 23:18:02,972 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-26 23:18:02,981 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-26 23:18:02,984 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-26 23:18:02,984 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-28 11:35:45,644 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-28 11:35:45,710 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-28 11:35:45,722 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-28 11:35:45,723 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-28 19:11:43,425 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-28 19:11:43,432 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-28 19:11:43,439 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-28 19:11:43,440 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-29 09:21:30,959 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-29 09:21:31,006 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-29 09:21:31,015 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-29 09:21:31,015 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-29 16:51:49,584 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-29 16:51:49,592 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-29 16:51:49,604 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-29 16:51:49,604 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-29 16:51:59,224 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-29 16:51:59,230 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-29 16:51:59,232 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-29 16:51:59,232 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-11-30 20:44:12,506 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-30 20:44:12,547 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-30 20:44:12,571 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-30 20:44:12,572 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-01 00:44:43,612 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-01 00:44:43,625 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-01 00:44:43,637 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-01 00:44:43,637 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-01 18:43:44,881 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-01 18:43:44,952 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-01 18:43:44,959 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-01 18:43:44,959 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-01 20:03:14,972 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-01 20:03:14,986 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-01 20:03:14,997 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-01 20:03:14,997 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-02 20:18:11,251 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-02 20:18:12,327 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-02 20:18:12,453 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-02 20:18:12,453 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-02 20:59:13,398 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-02 20:59:17,532 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:responsive-primefaces:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\pom.xml.
+2016-12-02 20:59:21,058 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /responsive-primefaces/src/main/java
+2016-12-02 20:59:21,059 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /responsive-primefaces/src/main/resources
+2016-12-02 20:59:21,059 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /responsive-primefaces/src/test/java
+2016-12-02 20:59:23,302 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for responsive-primefaces
+2016-12-02 20:59:23,327 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2016-12-02 20:59:25,605 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-02 20:59:25,607 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-02 20:59:25,628 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-02 20:59:25,628 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-02 20:59:25,629 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of responsive-primefaces
+2016-12-02 20:59:25,630 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for responsive-primefaces
+2016-12-02 20:59:25,648 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-03 09:17:39,004 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-03 09:17:39,102 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-03 09:17:39,109 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-03 09:17:39,110 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-03 18:07:49,722 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-03 18:07:49,753 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-03 18:07:49,788 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-03 18:07:49,788 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-05 10:18:30,912 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 10:18:30,941 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-05 10:18:30,947 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 10:18:30,947 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\responsive-primefaces\src\test\resources
+2016-12-05 18:10:53,230 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:layout-primefaces-patagonia:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMA플O_DE_APLICA합ES_WEBJEE\PROJETOS(JEE)\layout-primefaces-patagonia\pom.xml.
+2016-12-05 18:10:55,465 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/main/java
+2016-12-05 18:10:55,466 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/test/java
+2016-12-05 18:10:57,303 [Worker-68] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2016-12-05 18:11:52,766 [Worker-81] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 18:11:53,091 [Worker-81] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-12-05 18:15:55,234 [Worker-80] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 18:15:55,275 [Worker-80] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-12-05 18:22:14,734 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:layout-primefaces-patagonia:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia\pom.xml.
+2016-12-05 18:22:16,581 [Worker-73] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/main/java
+2016-12-05 18:22:16,582 [Worker-73] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/test/java
+2016-12-05 18:22:17,177 [Worker-73] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2016-12-05 18:30:17,296 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 18:30:18,229 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:layout-primefaces-patagonia:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia\pom.xml.
+2016-12-05 18:30:19,716 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/main/java
+2016-12-05 18:30:19,717 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia/src/test/java
+2016-12-05 18:30:20,204 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia
+2016-12-05 18:30:20,218 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 18:39:26,917 [Worker-83] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 18:39:27,596 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/primefaces/5.3/primefaces-5.3.pom
+2016-12-05 18:39:29,054 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/primefaces/primefaces/5.3/primefaces-5.3.pom
+2016-12-05 18:39:29,590 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/primefaces/primefaces/5.3/primefaces-5.3.pom
+2016-12-05 18:39:30,140 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/primefaces/5.3/primefaces-5.3.jar
+2016-12-05 18:39:30,349 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/primefaces/primefaces/5.3/primefaces-5.3.jar
+2016-12-05 18:39:47,356 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/primefaces/primefaces/5.3/primefaces-5.3.jar
+2016-12-05 18:39:49,020 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/main/java
+2016-12-05 18:39:49,020 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/test/java
+2016-12-05 18:39:49,476 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 23 sec
+2016-12-05 19:16:46,714 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.projetofinal3:ProjetoFinal3:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\ProjetoFinal3\pom.xml.
+2016-12-05 19:16:47,086 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/main/java
+2016-12-05 19:16:47,087 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjetoFinal3/src/main/resources
+2016-12-05 19:16:47,088 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/test/java
+2016-12-05 19:16:47,088 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjetoFinal3/src/test/resources
+2016-12-05 19:39:40,783 [Worker-82] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 19:39:41,677 [Worker-82] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.projetofinal3:ProjetoFinal3:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\ProjetoFinal3\pom.xml.
+2016-12-05 19:39:42,067 [Worker-82] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 19:39:43,941 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/main/java
+2016-12-05 19:39:43,942 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjetoFinal3/src/main/resources
+2016-12-05 19:39:43,953 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/test/java
+2016-12-05 19:39:43,954 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjetoFinal3/src/test/resources
+2016-12-05 19:39:44,308 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ProjetoFinal3
+2016-12-05 19:39:44,322 [Worker-82] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2016-12-05 19:39:44,531 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 19:39:44,532 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 19:39:44,534 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 19:39:44,535 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 19:39:44,535 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ProjetoFinal3
+2016-12-05 19:39:44,536 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ProjetoFinal3
+2016-12-05 19:39:44,547 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 19:39:45,925 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 19:39:45,926 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\src\main\resources
+2016-12-05 19:39:45,927 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-05 19:39:45,928 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\src\test\resources
+2016-12-05 19:42:03,097 [Worker-85] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 19:42:04,695 [Worker-85] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.projetofinal3:ProjetoFinal3:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\ProjetoFinal3\pom.xml.
+2016-12-05 19:42:04,815 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/main/java
+2016-12-05 19:42:04,816 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjetoFinal3/src/main/resources
+2016-12-05 19:42:04,816 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/test/java
+2016-12-05 19:42:04,817 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjetoFinal3/src/test/resources
+2016-12-05 19:42:05,055 [Worker-85] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ProjetoFinal3
+2016-12-05 19:42:05,129 [Worker-85] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 19:49:40,774 [Worker-77] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 19:49:41,635 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.projetofinal3:ProjetoFinal3:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\ProjetoFinal3\pom.xml.
+2016-12-05 19:49:42,876 [Worker-77] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/main/java
+2016-12-05 19:49:42,876 [Worker-77] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetoFinal3/src/test/java
+2016-12-05 19:49:43,165 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ProjetoFinal3
+2016-12-05 19:49:43,206 [Worker-77] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 20:26:58,732 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:26:58,844 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 20:26:59,905 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.10/dot-luv-1.0.10.pom
+2016-12-05 20:27:00,168 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.10/dot-luv-1.0.10.pom
+2016-12-05 20:27:00,473 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.10/dot-luv-1.0.10.jar
+2016-12-05 20:27:01,254 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.10/dot-luv-1.0.10.jar
+2016-12-05 20:27:01,863 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/main/java
+2016-12-05 20:27:01,863 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/test/java
+2016-12-05 20:27:02,170 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia-master
+2016-12-05 20:27:02,254 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2016-12-05 20:30:43,135 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.1/dot-luv-1.0.1.pom
+2016-12-05 20:30:43,392 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.1/dot-luv-1.0.1.pom
+2016-12-05 20:30:43,656 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/themes-project/1.0.1/themes-project-1.0.1.pom
+2016-12-05 20:30:43,905 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/themes-project/1.0.1/themes-project-1.0.1.pom
+2016-12-05 20:30:44,213 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.1/dot-luv-1.0.1.jar
+2016-12-05 20:30:44,970 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/primefaces/themes/dot-luv/1.0.1/dot-luv-1.0.1.jar
+2016-12-05 20:30:55,711 [Worker-86] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:30:56,649 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 20:30:57,782 [Worker-86] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/main/java
+2016-12-05 20:30:57,782 [Worker-86] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/test/java
+2016-12-05 20:30:58,043 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia-master
+2016-12-05 20:30:58,052 [Worker-86] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 20:33:27,933 [Worker-75] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:33:28,743 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 20:33:29,759 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/main/java
+2016-12-05 20:33:29,759 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/test/java
+2016-12-05 20:33:30,180 [Worker-75] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia-master
+2016-12-05 20:33:30,191 [Worker-75] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 20:35:25,474 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:35:26,222 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 20:35:27,324 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/main/java
+2016-12-05 20:35:27,324 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/test/java
+2016-12-05 20:35:27,546 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia-master
+2016-12-05 20:35:27,564 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 20:37:09,040 [Worker-89] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:37:09,940 [Worker-89] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:blue-algaworks:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master\pom.xml.
+2016-12-05 20:37:11,248 [Worker-89] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/main/java
+2016-12-05 20:37:11,248 [Worker-89] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layout-primefaces-patagonia-master/src/test/java
+2016-12-05 20:37:11,525 [Worker-89] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for layout-primefaces-patagonia-master
+2016-12-05 20:37:11,578 [Worker-89] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 21:25:57,384 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dfedw:fdwtdft:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\fdwtdft\pom.xml.
+2016-12-05 21:25:58,018 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fdwtdft/src/main/java
+2016-12-05 21:25:58,019 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fdwtdft/src/main/resources
+2016-12-05 21:25:58,020 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fdwtdft/src/test/java
+2016-12-05 21:25:58,020 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fdwtdft/src/test/resources
+2016-12-05 21:33:09,018 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 21:33:10,241 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dfedw:fdwtdft:0.0.1-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\fdwtdft\pom.xml.
+2016-12-05 21:33:10,957 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fdwtdft/src/main/java
+2016-12-05 21:33:10,958 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fdwtdft/src/main/resources
+2016-12-05 21:33:10,958 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fdwtdft/src/test/java
+2016-12-05 21:33:10,958 [Worker-84] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fdwtdft/src/test/resources
+2016-12-05 21:33:11,127 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for fdwtdft
+2016-12-05 21:33:11,140 [Worker-84] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-12-05 21:39:48,216 [Worker-81] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:gestao-orcamentos:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\2a-oficina-primefaces-master\pom.xml.
+2016-12-05 21:39:51,846 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.2.14/javax.faces-2.2.14.pom
+2016-12-05 21:39:55,985 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.14/javax.faces-2.2.14.pom
+2016-12-05 21:39:56,205 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.14/javax.faces-2.2.14.pom
+2016-12-05 21:39:56,737 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/servlet/weld-servlet/2.4.1.Final/weld-servlet-2.4.1.Final.pom
+2016-12-05 21:39:56,958 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/servlet/weld-servlet/2.4.1.Final/weld-servlet-2.4.1.Final.pom
+2016-12-05 21:39:57,191 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/servlet/weld-servlet/2.4.1.Final/weld-servlet-2.4.1.Final.pom
+2016-12-05 21:39:57,704 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/servlet/weld-servlet-parent/2.4.1.Final/weld-servlet-parent-2.4.1.Final.pom
+2016-12-05 21:39:57,917 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/servlet/weld-servlet-parent/2.4.1.Final/weld-servlet-parent-2.4.1.Final.pom
+2016-12-05 21:39:58,150 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/servlet/weld-servlet-parent/2.4.1.Final/weld-servlet-parent-2.4.1.Final.pom
+2016-12-05 21:39:58,658 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-core-parent/2.4.1.Final/weld-core-parent-2.4.1.Final.pom
+2016-12-05 21:39:58,868 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-core-parent/2.4.1.Final/weld-core-parent-2.4.1.Final.pom
+2016-12-05 21:39:59,294 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-core-parent/2.4.1.Final/weld-core-parent-2.4.1.Final.pom
+2016-12-05 21:39:59,820 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-parent/36/weld-parent-36.pom
+2016-12-05 21:40:00,031 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/36/weld-parent-36.pom
+2016-12-05 21:40:00,321 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/36/weld-parent-36.pom
+2016-12-05 21:40:00,854 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-api-bom/2.4.Final/weld-api-bom-2.4.Final.pom
+2016-12-05 21:40:01,269 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-bom/2.4.Final/weld-api-bom-2.4.Final.pom
+2016-12-05 21:40:01,484 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-bom/2.4.Final/weld-api-bom-2.4.Final.pom
+2016-12-05 21:40:02,065 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-api-parent/2.4.Final/weld-api-parent-2.4.Final.pom
+2016-12-05 21:40:02,276 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-parent/2.4.Final/weld-api-parent-2.4.Final.pom
+2016-12-05 21:40:02,504 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-parent/2.4.Final/weld-api-parent-2.4.Final.pom
+2016-12-05 21:40:03,020 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-parent/35/weld-parent-35.pom
+2016-12-05 21:40:03,437 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/35/weld-parent-35.pom
+2016-12-05 21:40:03,687 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/35/weld-parent-35.pom
+2016-12-05 21:40:04,282 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-validator/5.3.3.Final/hibernate-validator-5.3.3.Final.pom
+2016-12-05 21:40:04,493 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.3.3.Final/hibernate-validator-5.3.3.Final.pom
+2016-12-05 21:40:04,959 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.3.3.Final/hibernate-validator-5.3.3.Final.pom
+2016-12-05 21:40:05,469 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-validator-parent/5.3.3.Final/hibernate-validator-parent-5.3.3.Final.pom
+2016-12-05 21:40:05,679 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.3.3.Final/hibernate-validator-parent-5.3.3.Final.pom
+2016-12-05 21:40:06,175 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.3.3.Final/hibernate-validator-parent-5.3.3.Final.pom
+2016-12-05 21:40:06,692 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/arquillian/arquillian-bom/1.1.11.Final/arquillian-bom-1.1.11.Final.pom
+2016-12-05 21:40:07,103 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.1.11.Final/arquillian-bom-1.1.11.Final.pom
+2016-12-05 21:40:07,338 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.1.11.Final/arquillian-bom-1.1.11.Final.pom
+2016-12-05 21:40:07,852 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.3/shrinkwrap-bom-1.2.3.pom
+2016-12-05 21:40:08,268 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.3/shrinkwrap-bom-1.2.3.pom
+2016-12-05 21:40:08,485 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.3/shrinkwrap-bom-1.2.3.pom
+2016-12-05 21:40:09,040 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom
+2016-12-05 21:40:09,258 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom
+2016-12-05 21:40:09,479 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom
+2016-12-05 21:40:10,006 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-8/shrinkwrap-descriptors-bom-2.0.0-alpha-8.pom
+2016-12-05 21:40:10,420 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-8/shrinkwrap-descriptors-bom-2.0.0-alpha-8.pom
+2016-12-05 21:40:10,657 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-8/shrinkwrap-descriptors-bom-2.0.0-alpha-8.pom
+2016-12-05 21:40:11,283 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-core/5.2.4.Final/hibernate-core-5.2.4.Final.pom
+2016-12-05 21:40:11,696 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.4.Final/hibernate-core-5.2.4.Final.pom
+2016-12-05 21:40:11,921 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.4.Final/hibernate-core-5.2.4.Final.pom
+2016-12-05 21:40:12,538 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+2016-12-05 21:40:12,747 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+2016-12-05 21:40:12,967 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+2016-12-05 21:40:13,485 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+2016-12-05 21:40:13,695 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+2016-12-05 21:40:13,928 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+2016-12-05 21:40:14,514 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+2016-12-05 21:40:14,724 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+2016-12-05 21:40:14,965 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+2016-12-05 21:40:15,480 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+2016-12-05 21:40:15,891 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+2016-12-05 21:40:16,111 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+2016-12-05 21:40:16,625 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+2016-12-05 21:40:17,036 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+2016-12-05 21:40:17,463 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+2016-12-05 21:40:17,979 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.pom
+2016-12-05 21:40:18,189 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.pom
+2016-12-05 21:40:18,408 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.pom
+2016-12-05 21:40:18,947 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2016-12-05 21:40:19,359 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2016-12-05 21:40:19,626 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2016-12-05 21:40:20,378 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/com/fasterxml/classmate/1.3.0/classmate-1.3.0.pom
+2016-12-05 21:40:20,590 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.0/classmate-1.3.0.pom
+2016-12-05 21:40:20,828 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.0/classmate-1.3.0.pom
+2016-12-05 21:40:21,491 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2016-12-05 21:40:21,758 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2016-12-05 21:40:22,034 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2016-12-05 21:40:22,591 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/enterprise/cdi-api/1.1/cdi-api-1.1.pom
+2016-12-05 21:40:26,013 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.1/cdi-api-1.1.pom
+2016-12-05 21:40:26,236 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.1/cdi-api-1.1.pom
+2016-12-05 21:40:26,748 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-parent/21/weld-parent-21.pom
+2016-12-05 21:40:26,960 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/21/weld-parent-21.pom
+2016-12-05 21:40:27,230 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/21/weld-parent-21.pom
+2016-12-05 21:40:27,795 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/el/el-api/2.2/el-api-2.2.pom
+2016-12-05 21:40:28,012 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.pom
+2016-12-05 21:40:28,228 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.pom
+2016-12-05 21:40:28,735 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/web/el/2.2/el-2.2.pom
+2016-12-05 21:40:29,299 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/el/2.2/el-2.2.pom
+2016-12-05 21:40:29,729 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/el/2.2/el-2.2.pom
+2016-12-05 21:40:30,246 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.pom
+2016-12-05 21:40:30,778 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.pom
+2016-12-05 21:40:31,319 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.pom
+2016-12-05 21:40:31,848 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/spec/jboss-specs-parent/1.0.0.Beta1/jboss-specs-parent-1.0.0.Beta1.pom
+2016-12-05 21:40:32,376 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/jboss-specs-parent/1.0.0.Beta1/jboss-specs-parent-1.0.0.Beta1.pom
+2016-12-05 21:40:32,594 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/jboss-specs-parent/1.0.0.Beta1/jboss-specs-parent-1.0.0.Beta1.pom
+2016-12-05 21:40:33,113 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jboss-parent/5-beta-5/jboss-parent-5-beta-5.pom
+2016-12-05 21:40:33,331 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/5-beta-5/jboss-parent-5-beta-5.pom
+2016-12-05 21:40:33,805 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/5-beta-5/jboss-parent-5-beta-5.pom
+2016-12-05 21:40:34,316 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+2016-12-05 21:40:34,530 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+2016-12-05 21:40:34,744 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+2016-12-05 21:40:36,008 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/inject/javax.inject/1/javax.inject-1.pom
+2016-12-05 21:40:36,218 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+2016-12-05 21:40:36,431 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+2016-12-05 21:40:36,944 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom
+2016-12-05 21:40:37,159 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom
+2016-12-05 21:40:37,372 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom
+2016-12-05 21:40:38,271 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-entitymanager/5.2.4.Final/hibernate-entitymanager-5.2.4.Final.pom
+2016-12-05 21:40:38,489 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.2.4.Final/hibernate-entitymanager-5.2.4.Final.pom
+2016-12-05 21:40:38,702 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.2.4.Final/hibernate-entitymanager-5.2.4.Final.pom
+2016-12-05 21:40:39,298 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.2.14/javax.faces-2.2.14.jar
+2016-12-05 21:40:39,813 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/servlet/weld-servlet/2.4.1.Final/weld-servlet-2.4.1.Final.jar
+2016-12-05 21:40:40,721 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-validator/5.3.3.Final/hibernate-validator-5.3.3.Final.jar
+2016-12-05 21:40:42,230 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-core/5.2.4.Final/hibernate-core-5.2.4.Final.jar
+2016-12-05 21:40:43,291 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+2016-12-05 21:40:43,794 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+2016-12-05 21:40:44,330 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2016-12-05 21:40:44,822 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar
+2016-12-05 21:40:45,317 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/el/el-api/2.2/el-api-2.2.jar
+2016-12-05 21:40:45,818 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+2016-12-05 21:40:46,347 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2016-12-05 21:40:46,847 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/inject/javax.inject/1/javax.inject-1.jar
+2016-12-05 21:40:47,344 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar
+2016-12-05 21:40:47,848 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-entitymanager/5.2.4.Final/hibernate-entitymanager-5.2.4.Final.jar
+2016-12-05 21:40:48,088 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.14/javax.faces-2.2.14.jar
+2016-12-05 21:40:58,853 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.2.14/javax.faces-2.2.14.jar
+2016-12-05 21:40:59,106 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/servlet/weld-servlet/2.4.1.Final/weld-servlet-2.4.1.Final.jar
+2016-12-05 21:41:08,214 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/servlet/weld-servlet/2.4.1.Final/weld-servlet-2.4.1.Final.jar
+2016-12-05 21:41:08,754 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.3.3.Final/hibernate-validator-5.3.3.Final.jar
+2016-12-05 21:41:10,845 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.3.3.Final/hibernate-validator-5.3.3.Final.jar
+2016-12-05 21:41:11,070 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.4.Final/hibernate-core-5.2.4.Final.jar
+2016-12-05 21:41:32,497 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.4.Final/hibernate-core-5.2.4.Final.jar
+2016-12-05 21:41:33,966 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+2016-12-05 21:41:34,261 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+2016-12-05 21:41:34,497 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+2016-12-05 21:41:35,378 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+2016-12-05 21:41:35,940 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2016-12-05 21:41:36,788 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2016-12-05 21:41:37,054 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar
+2016-12-05 21:41:37,951 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar
+2016-12-05 21:41:38,213 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.jar
+2016-12-05 21:41:38,506 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.jar
+2016-12-05 21:41:38,720 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+2016-12-05 21:41:38,952 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+2016-12-05 21:41:39,168 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2016-12-05 21:41:39,388 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2016-12-05 21:41:39,869 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+2016-12-05 21:41:40,085 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+2016-12-05 21:41:40,295 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar
+2016-12-05 21:41:47,736 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar
+2016-12-05 21:41:47,947 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.2.4.Final/hibernate-entitymanager-5.2.4.Final.jar
+2016-12-05 21:41:48,464 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.2.4.Final/hibernate-entitymanager-5.2.4.Final.jar
+2016-12-05 21:41:53,038 [Worker-81] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2a-oficina-primefaces-master/src/main/java
+2016-12-05 21:41:53,039 [Worker-81] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /2a-oficina-primefaces-master/src/main/resources
+2016-12-05 21:41:53,042 [Worker-81] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2a-oficina-primefaces-master/src/test/java
+2016-12-05 21:41:56,314 [Worker-81] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 129 sec
+2016-12-05 21:48:41,168 [Worker-85] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 21:48:42,049 [Worker-85] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:gestao-orcamentos:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\2a-oficina-primefaces-master\pom.xml.
+2016-12-05 21:48:43,999 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2a-oficina-primefaces-master/src/main/java
+2016-12-05 21:48:44,000 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /2a-oficina-primefaces-master/src/main/resources
+2016-12-05 21:48:44,000 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2a-oficina-primefaces-master/src/test/java
+2016-12-05 21:48:44,666 [Worker-85] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 2a-oficina-primefaces-master
+2016-12-05 21:48:44,674 [Worker-85] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2016-12-05 22:08:22,045 [Worker-79] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 22:08:23,069 [Worker-79] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:gestao-orcamentos:1.0.0-SNAPSHOT @ D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\2a-oficina-primefaces-master\pom.xml.
+2016-12-05 22:08:24,816 [Worker-79] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2a-oficina-primefaces-master/src/main/java
+2016-12-05 22:08:24,816 [Worker-79] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /2a-oficina-primefaces-master/src/main/resources
+2016-12-05 22:08:24,817 [Worker-79] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2a-oficina-primefaces-master/src/test/java
+2016-12-05 22:08:25,630 [Worker-79] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 2a-oficina-primefaces-master
+2016-12-05 22:08:25,702 [Worker-79] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec

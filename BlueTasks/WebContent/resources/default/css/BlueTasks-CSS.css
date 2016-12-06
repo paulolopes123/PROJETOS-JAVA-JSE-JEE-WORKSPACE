@@ -1,0 +1,127 @@
+*
+{
+    font-family: Verdana;
+}
+
+body
+{
+    background-color: #26c4f3;
+}
+
+.titleBoard
+{
+    background-color: #ffffff;
+    border-radius: 0px 25px 25px 0px; 
+    height: 50px;
+    width: 700px;
+    line-height: 50px;
+    text-align: center;
+    color: #26c4f3;
+}
+
+.subtitleBoard
+{
+    color: #ffffff;
+    width: 680px;
+    border-left: solid 10px #ffffff;
+    border-bottom: solid 2px #ffffff;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.taskPendent
+{
+
+}
+
+.taskDone
+{
+    text-decoration: line-through;
+    font-style: italic;
+    color: #26c4f3;
+}
+
+.warningBoard
+{
+    background-color: #dd4444;
+    border-radius: 30px 30px 30px 30px;
+    width: 670px; 
+    color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0px 15px 0px 15px; 
+    font-size: 16px;
+}
+
+table
+{
+    width: 700px;
+    background-color: #dad9de;
+    border-spacing: 1px;
+}
+
+th
+{
+    background-color: #1a1f25;
+    color: #eeeeee;
+}
+
+tr
+{
+    height: 50px;
+}
+
+.rowPendent:nth-child(odd)
+{
+    background-color: #ffffff;
+}
+
+.rowPendent:nth-child(odd)
+{
+    background-color: #ebebeb;
+}
+
+.coluna1
+{
+    width: 85%;
+}
+
+td
+{
+    text-align: center;
+}
+
+.rowDone
+{
+    background-color: #b0ddeb;
+}
+
+table,
+.warningBoard,
+.subtitleBoard,
+.field
+{
+    margin-bottom: 30px;   
+}
+
+.button
+{
+    background-color: #1a1f25;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.field
+{
+   width: 700px;
+   height: 40px;
+   font-size: 20px;
+   color: #26c4f3;
+}
+

@@ -20,13 +20,13 @@ public class JanelaDepartamento extends JFrame {
 	// ATRIBUTOS
 	//
 	/**
-	 * Referência para o controlador do caso de uso
+	 * Referï¿½ncia para o controlador do caso de uso
 	 */
 	private CtrlManterDepartamentos ctrl;
 	/**
-	 * Indica se estou fazendo uma operação de inclusão ou alteração
+	 * Indica se estou fazendo uma operaï¿½ï¿½o de inclusï¿½o ou alteraï¿½ï¿½o
 	 */
-	private boolean ehAlteração;
+	private boolean ehAlteracao;
 
 	private JPanel contentPane;
 	private JTextField tfSigla;
@@ -88,10 +88,10 @@ public class JanelaDepartamento extends JFrame {
 		// Recupero os valores digitados nos textfields
 		String sigla = tfSigla.getText();
 		String nome = tfNome.getText();
-		// Verifico qual é a operação que estou fazendo
+		// Verifico qual ï¿½ a operaï¿½ï¿½o que estou fazendo
 		// e notifico ao controlador
 		try {
-			if (!ehAlteração)
+			if (!ehAlteracao)
 				ctrl.incluir(sigla, nome);
 			else
 				ctrl.alterar(sigla, nome);
@@ -106,7 +106,7 @@ public class JanelaDepartamento extends JFrame {
 
 	public void executarCancelar() {
 		try {
-			if (!ehAlteração)
+			if (!ehAlteracao)
 				ctrl.cancelarIncluir();
 			else
 				ctrl.cancelarAlterar();
@@ -125,6 +125,6 @@ public class JanelaDepartamento extends JFrame {
 	public void atualizarCampos(String sigla, String nome) {
 		this.tfSigla.setText(sigla);
 		this.tfNome.setText(nome);
-		this.ehAlteração = true;
+		this.ehAlteracao = true;
 	}
 }

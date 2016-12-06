@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;ProjetoFinal3&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Inicio.xhtml&#x0D;&#x0A;     Orcamentos.xhtml" description="Copy files" element1="src/main/webapp/Inicio.xhtml" element2="src/main/webapp/Orcamentos.xhtml" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480982172293" target="/2a-oficina-primefaces-master/src/main/webapp" units="0" version="1.0"/>
+</session>

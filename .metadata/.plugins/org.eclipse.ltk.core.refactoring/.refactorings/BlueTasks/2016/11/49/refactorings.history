@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ListTasksBean.java&apos; to &apos;ProjetoFinal2/src/dominio.dao&apos;&#x0D;&#x0A;- Original project: &apos;BlueTasks&apos;&#x0D;&#x0A;- Destination element: &apos;ProjetoFinal2/src/dominio.dao&apos;&#x0D;&#x0A;- Original element: &apos;bluetasks.bean.ListTasksBean.java&apos;" description="Copy compilation unit" destination="=ProjetoFinal2/src&lt;dominio.dao" element1="/src&lt;bluetasks.bean{ListTasksBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480345212506" units="1" version="1.0"/>
+</session>

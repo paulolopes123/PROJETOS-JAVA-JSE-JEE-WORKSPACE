@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
-		<list key="issueManagementUrl">
-		</list>
-		<list key="issueManagementSystem">
-		</list>
 		<list key="ciManagementUrl">
 		</list>
 		<list key="ciManagementSystem">
 		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
-	</section>
-	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
-		<item value="450" key="height"/>
-		<item value="737" key="width"/>
-		<item value="64" key="y"/>
-		<item value="315" key="x"/>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
-		<item value="531" key="height"/>
 		<item value="480" key="width"/>
-		<item value="12" key="y"/>
 		<item value="443" key="x"/>
+		<item value="12" key="y"/>
+		<item value="531" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMAÇÃO_DE_APLICAÇÕES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="737" key="width"/>
+		<item value="315" key="x"/>
+		<item value="64" key="y"/>
+		<item value="450" key="height"/>
 	</section>
 </section>

@@ -28,14 +28,14 @@ public class JanelaEmpregado extends JFrame {
 	// ATRIBUTOS
 	//
 	/**
-	 * Referência para o controlador do caso de uso
+	 * Referï¿½ncia para o controlador do caso de uso
 	 */
 	private CtrlManterEmpregados ctrl;
 	/**
-	 * Indica se estou fazendo uma operação de inclusão ou 
-	 * alteração
+	 * Indica se estou fazendo uma operaï¿½ï¿½o de inclusï¿½o ou 
+	 * alteraï¿½ï¿½o
 	 */
-	private boolean ehAlteração;
+	private boolean ehAlteracao;
 	
 	private JPanel contentPane;
 	private JTextField tfCpf;
@@ -116,10 +116,10 @@ public class JanelaEmpregado extends JFrame {
 		String nome = tfNome.getText();
 		Object selecionado = cbDeptos.getSelectedItem();
 		Departamento depto = selecionado == SELECAO_NULA ? null : (Departamento)selecionado;
-		// Verifico qual é a operação que estou fazendo
+		// Verifico qual ï¿½ a operaï¿½ï¿½o que estou fazendo
 		// e notifico ao controlador
 		try {
-			if(!ehAlteração)
+			if(!ehAlteracao)
 				ctrl.incluir(cpf, nome, depto);
 			else
 				ctrl.alterar(cpf, nome, depto);
@@ -134,7 +134,7 @@ public class JanelaEmpregado extends JFrame {
 	
 	public void executarCancelar() {
 		try {
-			if(!ehAlteração)
+			if(!ehAlteracao)
 				ctrl.cancelarIncluir();
 			else
 				ctrl.cancelarAlterar();
@@ -154,6 +154,6 @@ public class JanelaEmpregado extends JFrame {
 			this.cbDeptos.setSelectedItem(depto);
 		else
 			this.cbDeptos.setSelectedItem(SELECAO_NULA);
-		this.ehAlteração = true;
+		this.ehAlteracao = true;
 	}
 }
