@@ -1,0 +1,155 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/Layout.xhtml">
+
+	<ui:define name="content">
+		<h1 class="aw-page-title">Orçamentos</h1>
+
+		<h:form id="frm">
+			<p:messages autoUpdate="false" style="margin-top:-15px;" />
+			<p:commandButton value="Novo Item"
+				oncomplete="PF('itemDialog').show()"
+				action="#{cadastroOrcamentoBean.novoItem}" process="@this"
+				update="itemPanel">
+				<p:resetInput target="itemPanel" />
+
+			</p:commandButton>
+
+
+
+			<p:dialog widgetVar="itemDialog" header="Novo Item" resizable="false"
+				style="min-width:300px;" responsive="true">
+
+				<h:panelGroup id="itemPanel" layout="block" styleClass="ui-fluid">
+					<p:messages id="msgDialog" autoUpdate="false" />
+					<p:panelGrid columns="2" layout="grid"
+						styleClass="panelgrid-noborder"
+						columnClasses="ui-grid-col-4,ui-grid-col-8">
+
+						<p:outputLabel value="Descrição" for="descricao" />
+						<p:inputText id="descricao"
+							value="#{cadastroOrcamentoBean.item.descricao}" />
+
+						<p:outputLabel value="Tipo" for="tipo" />
+						<p:selectOneMenu id="tipo"
+							value="#{cadastroOrcamentoBean.item.tipo}">
+							<f:selectItem itemLabel="Selecione" />
+							<f:selectItem itemLabel="Produto" itemValue="PRODUTO" />
+							<f:selectItem itemLabel="Serviço" itemValue="SERVICO" />
+
+						</p:selectOneMenu>
+
+
+						<p:outputLabel value="Preço" for="preco" />
+						<p:inputText id="preco"
+							value="#{cadastroOrcamentoBean.item.preco}">
+							<f:convertNumber />
+						</p:inputText>
+
+						<p:outputLabel />
+
+						<p:commandButton value="Adicionar"
+							action="#{cadastroOrcamentoBean.adicionarItem}"
+							process="itemPanel" update="itemPanel itensTable"
+							oncomplete="if(!args.validationFailed) PF('itemDialog').hide()" />
+
+
+					</p:panelGrid>
+
+
+
+				</h:panelGroup>
+			</p:dialog>
+
+			<div class="ui-fluid">
+				<!-- painel em forma de grid onde são definidas a quantidade de colunas que o grid terá -->
+				<p:panelGrid columns="4" style="margin-bottom:20px;margin-top:20px;"
+					layout="grid" styleClass="panelgrid-noborder"
+					columnClasses="ui-grid-col-2,ui-grid-col-4,ui-grid-col-2,ui-grid-col-4">
+
+					<p:outputLabel for="cliente" value="Cliente" />
+					<p:inputText id="cliente"
+						value="#{cadastroOrcamentoBean.orcamento.cliente}" />
+
+					<p:outputLabel for="cpf" value="CPF" />
+					<p:inputMask id="cpf" mask="999.999.999-99"
+						value="#{cadastroOrcamentoBean.orcamento.cpf}" />
+
+					<p:outputLabel for="telefone" value="Telefone" />
+					<p:inputText id="telefone"
+						value="#{cadastroOrcamentoBean.orcamento.telefone}" />
+
+					<p:outputLabel for="condicaoPagto" value="Condição de Pagto" />
+					<p:selectOneMenu id="condicaoPagto"
+						value="#{cadastroOrcamentoBean.orcamento.condicaoPagamento}">
+						<f:selectItem itemLabel="Selecione" />
+						<f:selectItem itemLabel="A Vista" itemValue="A Vista" />
+						<f:selectItem itemLabel="30 Dias" itemValue="30 Dias" />
+						<f:selectItem itemLabel="30 + 60 Dias" itemValue="30 + 60 Dias" />
+
+
+					</p:selectOneMenu>
+
+					<p:outputLabel for="diasEntrega" value="Dias Entrega" />
+					<p:inputText id="diasEntrega"
+						value="#{cadastroOrcamentoBean.orcamento.diasEntrega}" />
+
+
+					<p:outputLabel for="validade" value="Validade" />
+					<p:calendar id="validade" pattern="dd/MM/yyyy"
+						value="#{cadastroOrcamentoBean.orcamento.dataValidade}" />
+				</p:panelGrid>
+
+
+			</div>
+
+			<!-- o parametro toolbar e usado junto com o toolbarGroup para simular uma barra de ferramentas -->
+			<p:toolbar>
+
+				<p:toolbarGroup>
+
+					<p:commandButton value="Salvar" update="@form"
+						action="#{cadastroOrcamentoBean.salvar}" />
+				</p:toolbarGroup>
+
+			</p:toolbar>
+
+
+
+
+			<p:dataTable id="itensTable"
+				value="#{cadastroOrcamentoBean.orcamento.itens}" var="item"
+				emptyMessage="Nenhum Item Selecionado" style="margin-top:10px;"
+				reflow="true">
+
+
+				<p:column headerText="Descrição">
+					<h:outputText value="#{item.descricao}" style="margin-left:150px;" />
+
+				</p:column>
+
+				<p:column headerText="Tipo">
+					<h:outputText value="#{item.tipo.descricao}"
+						style="margin-left:150px;" />
+
+				</p:column>
+
+				<p:column headerText="Preço">
+					<h:outputText value="#{item.preco}" style="margin-left:150px;">
+						<f:convertNumber type="currency" />
+					</h:outputText>
+				</p:column>
+
+
+			</p:dataTable>
+
+
+
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>

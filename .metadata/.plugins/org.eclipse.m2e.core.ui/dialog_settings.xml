@@ -2,6 +2,25 @@
 <section name="Workbench">
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 		<list key="ciManagementUrl">
 		</list>
@@ -20,8 +39,22 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\2a-oficina-primefaces-master"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia-master"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\layout-primefaces-patagonia"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMAÇÃO_DE_APLICAÇÕES_WEBJEE\PROJETOS(JEE)\layout-primefaces-patagonia"/>
 			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\PROGRAMAÇÃO_DE_APLICAÇÕES_WEBJEE\PROJETOS(JEE)\responsive-primefaces-javaone-2016-master"/>
 		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -36,5 +69,40 @@
 		<item value="315" key="x"/>
 		<item value="64" key="y"/>
 		<item value="450" key="height"/>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\SoftBlueTasks"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\SistemaFinanceiro"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\BlueTasks"/>
+			<item value="D:\ONEDRIVE\BACKUP_FACUL_2\GitHub\PROJETOS-JAVA-JSE-JEE-WORKSPACE\ProjetoFinal2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

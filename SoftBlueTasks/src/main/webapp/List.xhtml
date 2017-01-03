@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/Layout.xhtml">
+	<ui:define name="body">
+		<div class="subtitleBoard">
+			<h2>Gerenciamento de Tarefas</h2>
+		</div>
+
+		<h:form>
+			<table>
+				<tr>
+					<th class="coluna1">Tarefa</th>
+					<th class="coluna2" colspan="2">Ações</th>
+				</tr>
+				<h:panelGroup rendered="#{bean.tasks.size() == 0}">
+					<tr class="rowPendent">
+						<td class="taskPendent" colspan="3">Nenhuma tarefa cadastrada</td>
+					</tr>
+				</h:panelGroup>
+				<ui:repeat var="task" value="#{bean.tasks}">
+					<tr class="#{task.completed ? 'rowDone' : 'rowPendent'}">
+						<td class="#{task.completed ? 'taskDone' : 'taskPendent'}"><h:commandLink
+								action="#{bean.edit(task)}" value="#{task.description}" /></td>
+						<td><h:commandLink action="#{bean.markAsCompleted(task)}"
+								rendered="#{!task.completed}">
+								<h:graphicImage library="default"
+									name="images/iconeConcluir.png" />
+							</h:commandLink></td>
+						<td><h:commandLink action="#{bean.delete(task)}"
+								onclick="return confirm('Deseja mesmo excluir esta tarefa?');">
+								<h:graphicImage library="default" name="images/iconeExcluir.png" />
+							</h:commandLink></td>
+					</tr>
+				</ui:repeat>
+			</table>
+
+			<h:commandButton action="Edit" value="Cadastrar nova tarefa"
+				styleClass="button" />
+			<h:outputText value="  " />
+			<h:commandButton action="#{bean.deleteCompletedTasks}"
+				value="Excluir todas as tarefas concluídas" styleClass="button"
+				onclick="return confirm('Deseja mesmo excluir as tarefas concluídas?');" />
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>

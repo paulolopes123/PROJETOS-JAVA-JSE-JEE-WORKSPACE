@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="dominio.Prova"/>
-<fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
-<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
-<fullyQualifiedTypeName name="javax.persistence.EnumType"/>
-<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
-<fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
-<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
-<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-<fullyQualifiedTypeName name="dominio.Cliente"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-<fullyQualifiedTypeName name="controle.dao.ClienteJpaDAO"/>
-<fullyQualifiedTypeName name="face.JanelaFormulario"/>
-<fullyQualifiedTypeName name="controle.dao.CtrlFormulario"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="exercicio1.Funcionario"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -42,11 +27,8 @@
 <fullyQualifiedTypeName name="dominio.Responde"/>
 <fullyQualifiedTypeName name="dominio.DadosException"/>
 <fullyQualifiedTypeName name="controle.ITabelavel"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="javax.persistence.Lob"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
@@ -57,7 +39,25 @@
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="dominio.dao.UsuarioDAO"/>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
-<fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="javax.enterprise.context.SessionScoped"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="com.algaworks.comercial.service.GestaoOrcamentos"/>
+<fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.repository.QuestoesRepository"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.model.Questao"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.controller.ITabelavel"/>
+<fullyQualifiedTypeName name="com.algaworks.comercial.model.OrcamentoItem"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.service.GestaoQuestoes"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.service.GestaoLogin"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.repository.LoginRepository"/>
+<fullyQualifiedTypeName name="com.unigranrio.projetofinal.model.Usuario"/>
+<fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="javax.faces.view.ViewScoped"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="com.softblue.bluetasks.model.Task"/>
 </qualifiedTypeNameHistroy>
