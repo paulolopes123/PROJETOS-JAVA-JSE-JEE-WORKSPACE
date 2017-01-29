@@ -12,18 +12,17 @@ import com.unigranrio.projetofinal.model.Usuario;
 import com.unigranrio.projetofinal.service.GestaoLogin;
 
 @Named("bean")
-@ViewScoped
+@SessionScoped
 public class LoginMB implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Inject
-	private GestaoLogin gestaoLogin;
+	private GestaoLogin gestaologin;
 
 	private Usuario usuario = new Usuario();
 
 	public String acaoAutenticar() throws Exception {
-		gestaoLogin.salvar(usuario);
-		usuario = new Usuario();
-		return "login";
+
+		return "inicio";
 
 	}
 
@@ -34,6 +33,10 @@ public class LoginMB implements Serializable {
 
 	public Usuario getUsuario() {
 		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 
 }
