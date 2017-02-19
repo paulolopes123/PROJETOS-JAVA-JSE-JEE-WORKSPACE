@@ -12,7 +12,7 @@ import com.unigranrio.projetofinal.model.Usuario;
 import com.unigranrio.projetofinal.service.GestaoLogin;
 
 @Named("bean")
-@SessionScoped
+@ViewScoped
 public class LoginMB implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Inject
